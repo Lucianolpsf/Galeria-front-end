@@ -8,31 +8,38 @@
 
 body {
     background-color: rgb(26, 233, 71);
-    color: white;
-    height: 100vh;
-    width: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 .cabecalho{
     width: 100%;
     height: 220px;
     background-color: rgb(26, 98, 26);
-}
-main {
-    width: 80%;
     color: white;
     display: flex;
-    height: 100vh;   
-    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.612);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
+
+h1{
+    margin: 2rem;
+    font-size: 5em;
+    font-variant-caps: all-petite-caps;
+    letter-spacing: 3rem;
+}
+
 .conteudo {
     background-color: rgba(114, 113, 113, 0.919);
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 100vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    color: white;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.612);
 }
 
 .conteudo-card {
