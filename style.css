@@ -171,9 +171,46 @@ h1{
 }
 /*card iago*/
 
+/* Estilo do Lucas Lima */
+
+.conteudo-cardlucaslima {
+    background-color: black;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.612);
+    width: 230px;
+    height: 400px;
+    border-radius: 15px;
+    margin:20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo-cardlucaslima:hover{
+    background-color: rgba(207, 205, 205, 0.116);
+}
+
+.card-linklucaslima {
+    margin: 2rem;
+    text-decoration: none;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 30px;
+    background-color: #80a62d;
+    transition: .3s;
+    font-size: larger;
+}
+
+.card-linklucaslima:hover {
+    color: #80a62d;
+    background-color: white;
+    font-size: larger;
+}
+
 /*Card Wesley*/
 .cardwesley {
-    background-color: #253a63;
+    background-color: #293058;
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.612);
     width: 230px;
     height: 400px;
@@ -187,23 +224,23 @@ h1{
 }
 
 .cardwesley:hover{
-    background-color: #1d2d47;
+    background-color: #1f2441;
 }
 
 .card-wesley {
     margin: 2rem;
     text-decoration: none;
-    color: rgba(69, 111, 201, 0.782);
+    color: rgba(0, 0, 0, 0.782);
     padding: 1rem 2rem;
     border-radius: 30px;
-    background-color: rgb(137, 159, 138);
+    background-color: rgb(64, 115, 226);
     transition: .3s;
     font-size: larger;
 }
 
 .card-wesley:hover {
-    color:rgb(49, 137, 189) ;
-    background-color: rgba(23, 178, 187, 0.782);
+    color:rgb(80, 121, 197) ;
+    background-color: rgba(39, 61, 122, 0.782);
     font-size: larger;
     font-family: Arial, Helvetica, sans-serif;
 }
