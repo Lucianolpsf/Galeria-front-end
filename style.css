@@ -170,3 +170,40 @@ h1{
     font-family: Arial, Helvetica, sans-serif;
 }
 /*card iago*/
+
+/* Estilo do Lucas Lima */
+
+.conteudo-cardlucaslima {
+    background-color: black;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.612);
+    width: 230px;
+    height: 400px;
+    border-radius: 15px;
+    margin:20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo-cardlucaslima:hover{
+    background-color: rgba(207, 205, 205, 0.116);
+}
+
+.card-linklucaslima {
+    margin: 2rem;
+    text-decoration: none;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 30px;
+    background-color: #80a62d;
+    transition: .3s;
+    font-size: larger;
+}
+
+.card-linklucaslima:hover {
+    color: #80a62d;
+    background-color: white;
+    font-size: larger;
+}
