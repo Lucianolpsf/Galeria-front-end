@@ -243,3 +243,9 @@ h1{
     background-color: rgb(255, 255, 255);
     font-size: larger;
 }
+
+.wesley-img {
+    border-radius: 50%;
+    width: 155px;
+    height: 165px;
+}
