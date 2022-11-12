@@ -209,8 +209,8 @@ h1{
 }
 
 /*Card Wesley*/
-.cardwesley {
-    background-color: #293058;
+.conteudo-wesley {
+    background-color: rgb(22, 61, 18);
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.612);
     width: 230px;
     height: 400px;
@@ -223,25 +223,23 @@ h1{
     align-items: center;
 }
 
-.cardwesley:hover{
-    background-color: #1f2441;
+.conteudo-wesley:hover{
+    background-color: #0d3c39;
 }
 
 .card-wesley {
     margin: 2rem;
     text-decoration: none;
-    color: rgba(0, 0, 0, 0.782);
+    color: white;
     padding: 1rem 2rem;
     border-radius: 30px;
-    background-color: rgb(64, 115, 226);
+    background-color: #31834c;
     transition: .3s;
     font-size: larger;
 }
 
 .card-wesley:hover {
-    color:rgb(80, 121, 197) ;
-    background-color: rgba(39, 61, 122, 0.782);
+    color: #000000;
+    background-color: rgb(255, 255, 255);
     font-size: larger;
-    font-family: Arial, Helvetica, sans-serif;
-
-/*Card Wesley*/
+}
