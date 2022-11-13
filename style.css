@@ -287,9 +287,22 @@ h1{
     font-size: larger;
 }
 /*Card Weslei.souza*/
-.conteudo-weslei.souza {
-    background-color: rgb(22, 61, 18);
+.conteudo-wesleisouza {
+    background-color: rgba(214, 218, 18, 0.897);
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: white;
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.612);
+    margin-top: 2rem;
+    border-radius: 15px;
+}
+
+.conteudo-card-wesleisouza {
+    background-color: rgba(225, 240, 15, 0.932);
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.612);
     width: 230px;
     height: 400px;
     border-radius: 15px;
@@ -301,29 +314,39 @@ h1{
     align-items: center;
 }
 
-.conteudo-weslei.souza:hover{
-    background-color: #0d3c39;
+.conteudo-card-wesleisouza:hover{
+    background-color: rgba(207, 205, 205, 0.116);
 }
 
-.card-weslei.souza {
+.card-img-wesleisouza {
+    border-radius: 50%;
+    width: 150px;
+    height: auto;
+}
+
+.card-titulo-wesleisouza {
+    font-size: 2em;
+    margin: 1.5rem 0;
+}
+
+.card-descricao-wesleisouza{
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.card-link-weslei {
     margin: 2rem;
     text-decoration: none;
-    color: white;
+    color: black;
     padding: 1rem 2rem;
     border-radius: 30px;
-    background-color: #31834c;
+    background-color: rgba(173, 16, 16, 0.966);
     transition: .3s;
     font-size: larger;
 }
 
-.card-weslei.souza:hover {
-    color: #000000;
-    background-color: rgb(255, 255, 255);
+.card-link:hover {
+    color: rgba(221, 235, 231, 0.911);
+    background-color: rgba(16, 16, 17, 0.014);
     font-size: larger;
-}
-
-.weslei.souza-img {
-    border-radius: 50%;
-    width: 155px;
-    height: 165px;
 }
