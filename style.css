@@ -349,4 +349,178 @@ h1{
     color: rgba(221, 235, 231, 0.911);
     background-color: rgba(16, 16, 17, 0.014);
     font-size: larger;
+<<<<<<< HEAD
 }
+=======
+}
+
+.weslei.souza-img {
+    border-radius: 50%;
+    width: 155px;
+    height: 165px;
+}
+
+/*Card Alan Cleverson*/
+.um{
+    background-color: rgb(23, 5, 182);
+    box-shadow: 10px 10px 30px rgba(8, 4, 1, 0.886);
+    width: 230px;
+    height: 400px;
+    border-radius:20px;
+    margin:20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.um:hover{
+    background-color: rgb(7, 7, 142);
+}
+
+.quatro{
+    margin: 2rem;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 1rem 2rem;
+    border-radius: 30px;
+    background-color: rgba(237, 64, 64, 0.938);
+    border-color: white;
+    transition: .3s;
+    font-size: larger;
+    text-align: center;
+}
+.quatro:hover {
+    color: rgb(8, 8, 8);
+    background-color: rgba(238, 22, 22, 0.945);
+    font-size: larger;
+}
+.dois{
+    font-size:180%;
+}
+
+
+/*Card Diogo Vilela*/
+#diogo__vilela {
+    background: url('https://img.wallpapic-br.com/i8959-323-227/thumb/galaxia-roxos-espaco-sideral-nebulosa-imagem-de-fundo.jpg') left bottom;
+    transition: 5s;
+}
+
+#diogo__vilela:hover {
+    background: url('https://img.wallpapic-br.com/i8959-323-227/thumb/galaxia-roxos-espaco-sideral-nebulosa-imagem-de-fundo.jpg') right bottom;
+}
+
+#diogo__vilela-button {
+    background-color: rgba(0, 0, 0, 0.583);
+    color: white;
+}
+
+#diogo__vilela-button:hover {
+    background-color: white;
+    color: black;
+} 
+
+/*Card Hugo Gonçalves*/
+
+.a{
+    background-color: rgb(21, 132, 217);
+    box-shadow: 10px 10px 30px rgba(70, 158, 11, 0.886);
+    width: 230px;
+    height: 400px;
+    border-radius:20px;
+    margin:20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.a:hover{
+    background-color: rgb(7, 102, 114);
+}
+
+.d{
+    margin: 2rem;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 1rem 2rem;
+    border-radius: 30px;
+    background-color: rgba(237, 64, 64, 0.938);
+    border-color: white;
+    transition: .3s;
+    font-size: larger;
+    text-align: center;
+}
+.d:hover {
+    color: rgb(175, 27, 27);
+    background-color: rgba(22, 137, 238, 0.945);
+    font-size: larger;
+}
+.b{
+    font-size:180%;
+}
+
+/*Card Hugo Gonçalves*/
+
+.cardcicero{
+    background-color: rgb(10, 10, 10);
+    box-shadow: 10px 10px 30px rgba(238, 8, 8, 0.886);
+    width: 230px;
+    height: 400px;
+    border-radius:20px;
+    margin:20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.cardcicero:hover{
+    background-color: rgb(216, 17, 17);
+    box-shadow: 10px 10px 30px rgba(8, 8, 8, 0.886);
+}
+
+.butcicero{
+    margin: 2rem;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 1rem 2rem;
+    border-radius: 30px;
+    background-color: rgba(245, 6, 6, 0.938);
+    border-color: rgb(255, 255, 255);
+    transition: .3s;
+    font-size: larger;
+    text-align: center;
+}
+.butcicero:hover {
+    color: rgb(214, 20, 20);
+    background-color: rgba(8, 8, 8, 0.945);
+    font-size: larger;
+}
+.textocicero{
+    font-size: 20px;
+}
+.textocicero:hover{
+    color: rgb(0, 0, 0);
+}
+.titulocicero{
+    margin-top: 15px;
+    font-size:150%;
+}
+.titulocicero:hover{
+    color: rgb(0, 0, 0);
+}
+.card-img-cicero {
+    border-radius: 50%;
+    width: 150px;
+    height: auto;
+    
+}
+.card-img-cicero:hover{
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.886);
+}
+
+>>>>>>> 6cb79b968355123ef2163371a1537a5e1f921608
