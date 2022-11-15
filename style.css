@@ -334,7 +334,7 @@ h1{
     font-size: 1.1em;
 }
 
-.card-link-weslei {
+.card-link-wesleisouza {
     margin: 2rem;
     text-decoration: none;
     color: black;
@@ -345,7 +345,7 @@ h1{
     font-size: larger;
 }
 
-.card-link:hover {
+.card-link-wesleisouza:hover {
     color: rgba(221, 235, 231, 0.911);
     background-color: rgba(16, 16, 17, 0.014);
     font-size: larger;
