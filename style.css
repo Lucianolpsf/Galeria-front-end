@@ -327,3 +327,43 @@ h1{
     width: 155px;
     height: 165px;
 }
+
+/*Card Alan Cleverson*/
+.um{
+    background-color: rgb(23, 5, 182);
+    box-shadow: 10px 10px 30px rgba(8, 4, 1, 0.886);
+    width: 230px;
+    height: 400px;
+    border-radius:20px;
+    margin:20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.um:hover{
+    background-color: rgb(7, 7, 142);
+}
+
+.quatro{
+    margin: 2rem;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 1rem 2rem;
+    border-radius: 30px;
+    background-color: rgba(237, 64, 64, 0.938);
+    border-color: white;
+    transition: .3s;
+    font-size: larger;
+    text-align: center;
+}
+.quatro:hover {
+    color: rgb(8, 8, 8);
+    background-color: rgba(238, 22, 22, 0.945);
+    font-size: larger;
+}
+.dois{
+    font-size:180%;
+}
