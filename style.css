@@ -367,3 +367,24 @@ h1{
 .dois{
     font-size:180%;
 }
+
+
+/*Card Diogo Vilela*/
+#diogo__vilela {
+    background: url('https://img.wallpapic-br.com/i8959-323-227/thumb/galaxia-roxos-espaco-sideral-nebulosa-imagem-de-fundo.jpg') left bottom;
+    transition: 5s;
+}
+
+#diogo__vilela:hover {
+    background: url('https://img.wallpapic-br.com/i8959-323-227/thumb/galaxia-roxos-espaco-sideral-nebulosa-imagem-de-fundo.jpg') right bottom;
+}
+
+#diogo__vilela-button {
+    background-color: rgba(0, 0, 0, 0.583);
+    color: white;
+}
+
+#diogo__vilela-button:hover {
+    background-color: white;
+    color: black;
+}
