@@ -527,3 +527,92 @@ h4 {
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.886);
 }
 
+/*Card David Catherinck*/
+
+.david-teste {
+    background: linear-gradient(90deg, #000000, #50577A, #FFFFFF, #50577A, #000000);
+    background-size: 300% 300%;
+    animation: colors 5s ease infinite;
+    border-radius:20px;
+    margin:20px;
+    box-shadow: 10px 10px 30px rgb(10, 10, 10);
+}
+
+@keyframes colors {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.david-teste1 {
+    background: url("./img/starWars.jpg");
+    background-size: 140%;
+    background-position: center;
+    opacity: 0.8;
+    border-radius:20px;
+}
+
+.david-teste1:hover {
+    opacity: 1;
+}
+.david {
+    width: 230px;
+    height: 400px;
+    border-radius:20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.david-img {
+    border-radius: 50%;
+    width: 150px;
+    height: auto;
+    margin-bottom: 10%;
+}
+
+.david-descricao {
+    line-height:70%;
+}
+.david-descricao__nome {
+    font-size:150%;
+    color: #000000;
+    font-weight: 1000;
+}
+
+.david-descricao__desenvolvedor {
+    color: #000000;
+    font-size: 80%;
+    font-weight: 1000;
+    background-color: #FFFFFF;
+    background-size: auto;
+}
+
+.david-portifolio {
+    margin: 2rem;
+    text-decoration: none;
+    font-weight: 500;
+    color: #000000;
+    padding: 1rem 2rem;
+    border-radius: 30px;
+    background-color: #FFFFFF;
+    transition: .3s;
+    font-size: larger;
+    text-align: center;
+}
+.david-portifolio:hover {
+    color: #FFFFFF;
+    background-color:#000000;
+    font-size: larger;
+}
