@@ -429,3 +429,65 @@ h1{
 .b{
     font-size:180%;
 }
+
+/*Card Hugo Gonçalves*/
+
+.cardcicero{
+    background-color: rgb(10, 10, 10);
+    box-shadow: 10px 10px 30px rgba(238, 8, 8, 0.886);
+    width: 230px;
+    height: 400px;
+    border-radius:20px;
+    margin:20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.cardcicero:hover{
+    background-color: rgb(216, 17, 17);
+    box-shadow: 10px 10px 30px rgba(8, 8, 8, 0.886);
+}
+
+.butcicero{
+    margin: 2rem;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 1rem 2rem;
+    border-radius: 30px;
+    background-color: rgba(245, 6, 6, 0.938);
+    border-color: rgb(255, 255, 255);
+    transition: .3s;
+    font-size: larger;
+    text-align: center;
+}
+.butcicero:hover {
+    color: rgb(214, 20, 20);
+    background-color: rgba(8, 8, 8, 0.945);
+    font-size: larger;
+}
+.textocicero{
+    font-size: 20px;
+}
+.textocicero:hover{
+    color: rgb(0, 0, 0);
+}
+.titulocicero{
+    margin-top: 15px;
+    font-size:150%;
+}
+.titulocicero:hover{
+    color: rgb(0, 0, 0);
+}
+.card-img-cicero {
+    border-radius: 50%;
+    width: 150px;
+    height: auto;
+    
+}
+.card-img-cicero:hover{
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.886);
+}
+
