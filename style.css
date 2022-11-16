@@ -894,3 +894,69 @@ h4 {
   background-color: rgba(148, 148, 148, 0.782);
   font-size: larger;
 }
+
+/* Card junio */
+
+.conteudo-junio {
+  background-color: rgba(11, 18, 56, 0.541);
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: white;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.612);
+  margin-top: 2rem;
+  border-radius: 15px;
+}
+
+.conteudo-card-junio {
+  background-color: rgb(2, 1, 68);
+  box-shadow: 10px 10px 30px rgba(30, 63, 102, 0.612);
+  width: 230px;
+  height: 400px;
+  border-radius: 15px;
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.conteudo-card-junio:hover {
+  background-image: url("https://static.vecteezy.com/system/resources/previews/001/882/531/original/dark-blue-technology-background-free-vector.jpg");
+}
+
+.card-img-junio {
+  border-radius: 30px;
+  width: 150px;
+  /* height: auto; */
+}
+
+.card-titulo-junio {
+  font-size: 1.7em;
+  margin: 1.5rem 0;
+}
+
+.card-descricao-junio {
+  text-align: center;
+  font-size: 1.1em;
+}
+
+.card-link-junio {
+  margin: 2rem;
+  text-decoration: none;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  background-color: rgba(42, 42, 43, 0.782);
+  transition: 0.3s;
+  font-size: larger;
+}
+
+.card-link-junio:hover {
+  color: rgba(255, 255, 255, 0.782);
+  background-color: rgba(148, 148, 148, 0.782);
+  font-size: larger;
+}
