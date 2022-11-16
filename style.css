@@ -960,3 +960,9 @@ h4 {
   background-color: rgba(148, 148, 148, 0.782);
   font-size: larger;
 }
+
+/* Card Felipe Martins */
+
+.conteudo-card #FelipeM{
+  background-color: blue;
+}
