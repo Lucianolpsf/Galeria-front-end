@@ -931,7 +931,8 @@ h4 {
 .card-img-junio {
   border-radius: 30px;
   width: 150px;
-  /* height: auto; */
+  height: 200px;
+  margin-top: 20px;
 }
 
 .card-titulo-junio {
