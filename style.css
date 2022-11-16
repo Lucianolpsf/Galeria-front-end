@@ -13,7 +13,8 @@ body {
     justify-content: center;
     align-items: center;
 }
-.cabecalho-footer{
+
+.cabecalho-footer {
     width: 100%;
     height: 120px;
     background-color: rgb(1, 36, 9);
@@ -24,11 +25,11 @@ body {
     justify-content: center;
 }
 
-h1{
+h1 {
     margin: 0.5rem;
     font-size: 3em;
     font-variant-caps: all-petite-caps;
-  
+
 }
 
 h4 {
@@ -54,18 +55,18 @@ h4 {
     width: 230px;
     height: 400px;
     border-radius: 15px;
-    margin:20px;
+    margin: 20px;
     padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     transition: 0.3s;
-    border-top: 1px solid rgba(255, 255, 255, 0.5); 
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
     border-left: 1px solid rgba(255, 255, 255, 0.5);
 }
 
-.conteudo-card:hover{
+.conteudo-card:hover {
     background-color: rgba(207, 205, 205, 0.116);
 }
 
@@ -111,7 +112,7 @@ h4 {
     width: 230px;
     height: 400px;
     border-radius: 15px;
-    margin:20px;
+    margin: 20px;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -119,7 +120,7 @@ h4 {
     align-items: center;
 }
 
-.conteudo-cardigor:hover{
+.conteudo-cardigor:hover {
     background-color: rgba(207, 205, 205, 0.116);
 }
 
@@ -135,7 +136,7 @@ h4 {
 }
 
 .card-linkigor:hover {
-    color:white ;
+    color: white;
     background-color: rgba(25, 25, 71, 0.712);
     font-size: larger;
 }
@@ -149,7 +150,7 @@ h4 {
     width: 230px;
     height: 400px;
     border-radius: 15px;
-    margin:20px;
+    margin: 20px;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -157,7 +158,7 @@ h4 {
     align-items: center;
 }
 
-.cardiago:hover{
+.cardiago:hover {
     background-color: rgba(207, 205, 205, 0.116);
 }
 
@@ -173,11 +174,12 @@ h4 {
 }
 
 .card-iago:hover {
-    color:white ;
+    color: white;
     background-color: rgba(23, 178, 187, 0.782);
     font-size: larger;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 /*card iago*/
 
 /* Estilo do Lucas Lima */
@@ -188,7 +190,7 @@ h4 {
     width: 230px;
     height: 400px;
     border-radius: 15px;
-    margin:20px;
+    margin: 20px;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -196,7 +198,7 @@ h4 {
     align-items: center;
 }
 
-.conteudo-cardlucaslima:hover{
+.conteudo-cardlucaslima:hover {
     background-color: rgba(207, 205, 205, 0.116);
 }
 
@@ -224,7 +226,7 @@ h4 {
     width: 230px;
     height: 400px;
     border-radius: 15px;
-    margin:20px;
+    margin: 20px;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -232,7 +234,7 @@ h4 {
     align-items: center;
 }
 
-.conteudo-wesley:hover{
+.conteudo-wesley:hover {
     background-color: #0d3c39;
 }
 
@@ -265,7 +267,7 @@ h4 {
     width: 230px;
     height: 400px;
     border-radius: 15px;
-    margin:20px;
+    margin: 20px;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -273,7 +275,7 @@ h4 {
     align-items: center;
 }
 
-.conteudo-card-thiago:hover{
+.conteudo-card-thiago:hover {
     background-color: rgba(207, 205, 205, 0.116);
 }
 
@@ -293,6 +295,7 @@ h4 {
     background-color: rgba(255, 0, 0, 0.945);
     font-size: larger;
 }
+
 /*Card Weslei.souza*/
 .conteudo-wesleisouza {
     background-color: rgba(214, 218, 18, 0.897);
@@ -313,7 +316,7 @@ h4 {
     width: 230px;
     height: 400px;
     border-radius: 15px;
-    margin:20px;
+    margin: 20px;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -321,7 +324,7 @@ h4 {
     align-items: center;
 }
 
-.conteudo-card-wesleisouza:hover{
+.conteudo-card-wesleisouza:hover {
     background-color: rgba(207, 205, 205, 0.116);
 }
 
@@ -336,7 +339,7 @@ h4 {
     margin: 1.5rem 0;
 }
 
-.card-descricao-wesleisouza{
+.card-descricao-wesleisouza {
     text-align: center;
     font-size: 1.1em;
 }
@@ -365,13 +368,13 @@ h4 {
 }
 
 /*Card Alan Cleverson*/
-.um{
+.um {
     background-color: rgb(23, 5, 182);
     box-shadow: 10px 10px 30px rgba(8, 4, 1, 0.886);
     width: 230px;
     height: 400px;
-    border-radius:20px;
-    margin:20px;
+    border-radius: 20px;
+    margin: 20px;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -379,11 +382,12 @@ h4 {
     align-items: center;
     text-align: center;
 }
-.um:hover{
+
+.um:hover {
     background-color: rgb(7, 7, 142);
 }
 
-.quatro{
+.quatro {
     margin: 2rem;
     text-decoration: none;
     color: rgb(255, 255, 255);
@@ -395,13 +399,15 @@ h4 {
     font-size: larger;
     text-align: center;
 }
+
 .quatro:hover {
     color: rgb(8, 8, 8);
     background-color: rgba(238, 22, 22, 0.945);
     font-size: larger;
 }
-.dois{
-    font-size:180%;
+
+.dois {
+    font-size: 180%;
 }
 
 
@@ -423,17 +429,17 @@ h4 {
 #diogo__vilela-button:hover {
     background-color: white;
     color: black;
-} 
+}
 
 /*Card Hugo Gonçalves*/
 
-.a{
+.a {
     background-color: rgb(21, 132, 217);
     box-shadow: 10px 10px 30px rgba(70, 158, 11, 0.886);
     width: 230px;
     height: 400px;
-    border-radius:20px;
-    margin:20px;
+    border-radius: 20px;
+    margin: 20px;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -441,11 +447,12 @@ h4 {
     align-items: center;
     text-align: center;
 }
-.a:hover{
+
+.a:hover {
     background-color: rgb(7, 102, 114);
 }
 
-.d{
+.d {
     margin: 2rem;
     text-decoration: none;
     color: rgb(255, 255, 255);
@@ -457,24 +464,26 @@ h4 {
     font-size: larger;
     text-align: center;
 }
+
 .d:hover {
     color: rgb(175, 27, 27);
     background-color: rgba(22, 137, 238, 0.945);
     font-size: larger;
 }
-.b{
-    font-size:180%;
+
+.b {
+    font-size: 180%;
 }
 
 /*Card Hugo Gonçalves*/
 
-.cardcicero{
+.cardcicero {
     background-color: rgb(10, 10, 10);
     box-shadow: 10px 10px 30px rgba(238, 8, 8, 0.886);
     width: 230px;
     height: 400px;
-    border-radius:20px;
-    margin:20px;
+    border-radius: 20px;
+    margin: 20px;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -482,12 +491,13 @@ h4 {
     align-items: center;
     text-align: center;
 }
-.cardcicero:hover{
+
+.cardcicero:hover {
     background-color: rgb(216, 17, 17);
     box-shadow: 10px 10px 30px rgba(8, 8, 8, 0.886);
 }
 
-.butcicero{
+.butcicero {
     margin: 2rem;
     text-decoration: none;
     color: rgb(255, 255, 255);
@@ -499,31 +509,38 @@ h4 {
     font-size: larger;
     text-align: center;
 }
+
 .butcicero:hover {
     color: rgb(214, 20, 20);
     background-color: rgba(8, 8, 8, 0.945);
     font-size: larger;
 }
-.textocicero{
+
+.textocicero {
     font-size: 20px;
 }
-.textocicero:hover{
+
+.textocicero:hover {
     color: rgb(0, 0, 0);
 }
-.titulocicero{
+
+.titulocicero {
     margin-top: 15px;
-    font-size:150%;
+    font-size: 150%;
 }
-.titulocicero:hover{
+
+.titulocicero:hover {
     color: rgb(0, 0, 0);
 }
+
 .card-img-cicero {
     border-radius: 50%;
     width: 150px;
     height: auto;
-    
+
 }
-.card-img-cicero:hover{
+
+.card-img-cicero:hover {
     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.886);
 }
 
@@ -533,8 +550,8 @@ h4 {
     background: linear-gradient(90deg, #000000, #50577A, #FFFFFF, #50577A, #000000);
     background-size: 300% 300%;
     animation: colors 5s ease infinite;
-    border-radius:20px;
-    margin:20px;
+    border-radius: 20px;
+    margin: 20px;
     box-shadow: 10px 10px 30px rgb(10, 10, 10);
 }
 
@@ -557,16 +574,17 @@ h4 {
     background-size: 140%;
     background-position: center;
     opacity: 0.8;
-    border-radius:20px;
+    border-radius: 20px;
 }
 
 .david-teste1:hover {
     opacity: 1;
 }
+
 .david {
     width: 230px;
     height: 400px;
-    border-radius:20px;
+    border-radius: 20px;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -583,10 +601,11 @@ h4 {
 }
 
 .david-descricao {
-    line-height:70%;
+    line-height: 70%;
 }
+
 .david-descricao__nome {
-    font-size:150%;
+    font-size: 150%;
     color: #000000;
     font-weight: 1000;
 }
@@ -611,9 +630,10 @@ h4 {
     font-size: larger;
     text-align: center;
 }
+
 .david-portifolio:hover {
     color: #FFFFFF;
-    background-color:#000000;
+    background-color: #000000;
     font-size: larger;
 }
 
@@ -637,7 +657,7 @@ h4 {
     width: 230px;
     height: 400px;
     border-radius: 15px;
-    margin:20px;
+    margin: 20px;
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -645,8 +665,9 @@ h4 {
     align-items: center;
 }
 
-.conteudo-card-gleydson:hover{
-    background-color: rgba(7, 121, 235, 0.116);  /*rgba(207, 205, 205, 0.116)*/
+.conteudo-card-gleydson:hover {
+    background-color: rgba(7, 121, 235, 0.116);
+    /*rgba(207, 205, 205, 0.116)*/
 }
 
 .card-img-gleydson {
@@ -681,25 +702,27 @@ h4 {
     background-color: white;
     font-size: larger;
 }
+
 /** Card Gustavo Peixoto **/
 .cardgustavodiv {
     background-color: rgba(39, 62, 189, 0.541);
-    background-image:url("https://wallpaperaccess.com/full/1682034.png");
+    background-image: url("https://wallpaperaccess.com/full/1682034.png");
     box-shadow: 10px 10px 30px rgba(7, 7, 7, 0.612);
     width: 230px;
     height: 400px;
     border-radius: 15px;
-    margin:20px;
+    margin: 20px;
     padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     transition: 0.3s;
-    border-top: 1px solid rgba(255, 255, 255, 0.5); 
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
     border-left: 1px solid rgba(255, 255, 255, 0.5);
-    
+
 }
+
 .cardgustavodiv:hover {
     background-color: rgba(207, 205, 205, 0.116);
 }
@@ -709,15 +732,18 @@ h4 {
     width: 150px;
     height: auto;
 }
+
 .titulogustavo {
     font-size: 2em;
     margin: 1.5rem 0;
-    text-align:center;
+    text-align: center;
 }
+
 .conteudogustavo {
     text-align: center;
     font-size: 1.1em;
 }
+
 .cardlinkgpc {
     margin: 2rem;
     text-decoration: none;
@@ -728,9 +754,75 @@ h4 {
     transition: .3s;
     font-size: larger;
 }
+
 .cardlinkgpc:hover {
     color: rgba(68, 68, 247, 0.782);
     background-color: rgb(43, 43, 43);
     font-size: larger;
 }
- 
+
+
+/*Felipe Guimarães*/
+.conteudo-felipeguimaraes {
+    background-color: rgba(11, 18, 56, 0.541);
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: white;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.612);
+    margin-top: 2rem;
+    border-radius: 15px;
+}
+
+.conteudo-card-felipeguimaraes {
+    background-image: url("https://wallpaperaccess.com/full/389987.jpg");
+    box-shadow: 10px 10px 30px rgba(30, 63, 102, 0.612);
+    width: 230px;
+    height: 400px;
+    border-radius: 15px;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo-card-felipeguimaraes:hover {
+    background-image: url("https://wallpaperaccess.com/full/389987.jpg");
+}
+
+.card-img-felipeguimaraes {
+    border-radius: 50%;
+    width: 100px;
+    height: auto;
+}
+
+.card-titulo-felipeguimaraes {
+    font-size: 1.7em;
+    margin: 1.5rem 0;
+}
+
+.card-descricao-felipeguimaraes {
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.card-link-felipeguimaraes {
+    margin: 2rem;
+    text-decoration: none;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 30px;
+    background-color: rgba(68, 68, 247, 0.782);
+    transition: .3s;
+    font-size: larger;
+}
+
+.card-link-felipeguimaraes:hover {
+    color: rgba(128, 153, 15, 0.782);
+    background-color: black;
+    font-size: larger;
+}
