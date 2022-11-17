@@ -1044,4 +1044,57 @@ h4 {
 #danielsn .flipp-front .card-descricao {
   padding: 30px;
   text-shadow: #000000;
+=======
+/* LF card */
+.conteudo-card-lf {
+  width: 230px;
+  height: 400px;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: #1C3B56;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.conteudo-card-lf:hover {
+  background-color: #2b5b84;
+}
+
+.card-img-lf {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+}
+
+.card-titulo-lf {
+  font-family: Verdana, sans-serif;
+  font-weight: 900;
+  font-size: 30px;
+  padding: 15px 0;
+}
+
+.card-descricao-lf {
+  font-family: sans-serif;
+  margin: 15px;
+}
+
+.card-link-lf {
+  color: white;
+  text-decoration: none;
+  margin: 32px;
+  padding: 16px 32px;
+  border-radius: 30px;
+  background-color: #1f2a32;
+}
+
+.card-link-lf:hover {
+  background-color: #3776ab;
+}
+/* Card Felipe Martins */
+
+.conteudo-card #FelipeM{
+  background-color: blue;
 }
