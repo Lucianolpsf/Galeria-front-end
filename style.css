@@ -970,7 +970,6 @@ h4 {
   padding: 20px;
   border-radius: 15px;
   background-color: #1C3B56;
-  /* background-color: #161415; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -995,7 +994,7 @@ h4 {
 }
 
 .card-descricao-lf {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: sans-serif;
   margin: 15px;
 }
 
@@ -1010,4 +1009,9 @@ h4 {
 
 .card-link-lf:hover {
   background-color: #3776ab;
+}
+/* Card Felipe Martins */
+
+.conteudo-card #FelipeM{
+  background-color: blue;
 }
