@@ -409,14 +409,12 @@ h4 {
 
 /*Card Diogo Vilela*/
 #diogo__vilela {
-  background: url("https://img.wallpapic-br.com/i8959-323-227/thumb/galaxia-roxos-espaco-sideral-nebulosa-imagem-de-fundo.jpg")
-    left bottom;
+  background: url("https://img.wallpapic-br.com/i8959-323-227/thumb/galaxia-roxos-espaco-sideral-nebulosa-imagem-de-fundo.jpg") left bottom;
   transition: 5s;
 }
 
 #diogo__vilela:hover {
-  background: url("https://img.wallpapic-br.com/i8959-323-227/thumb/galaxia-roxos-espaco-sideral-nebulosa-imagem-de-fundo.jpg")
-    right bottom;
+  background: url("https://img.wallpapic-br.com/i8959-323-227/thumb/galaxia-roxos-espaco-sideral-nebulosa-imagem-de-fundo.jpg") right bottom;
 }
 
 #diogo__vilela-button {
@@ -544,14 +542,12 @@ h4 {
 /*Card David Catherinck*/
 
 .david-teste {
-  background: linear-gradient(
-    90deg,
-    #000000,
-    #50577a,
-    #ffffff,
-    #50577a,
-    #000000
-  );
+  background: linear-gradient(90deg,
+      #000000,
+      #50577a,
+      #ffffff,
+      #50577a,
+      #000000);
   background-size: 300% 300%;
   animation: colors 5s ease infinite;
   border-radius: 20px;
@@ -968,9 +964,11 @@ h4 {
   0% {
     box-shadow: 0 0 30px #ff0000;
   }
+
   50% {
     box-shadow: 0 0 30px #0000ff;
   }
+
   100% {
     box-shadow: 0 0 30px #00ff00;
   }
@@ -980,6 +978,7 @@ h4 {
   0% {
     box-shadow: 0 0 30px #ffffff;
   }
+
   100% {
     box-shadow: 0 0 30px #ffff00;
   }
@@ -1003,6 +1002,7 @@ h4 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
 #danielsn .flipp-front .card-titulo .sn {
   background: linear-gradient(#ffff00, #fd9800 95%);
   -webkit-background-clip: text;
@@ -1044,7 +1044,8 @@ h4 {
 #danielsn .flipp-front .card-descricao {
   padding: 30px;
   text-shadow: #000000;
-=======
+}
+
 /* LF card */
 .conteudo-card-lf {
   width: 230px;
@@ -1093,8 +1094,9 @@ h4 {
 .card-link-lf:hover {
   background-color: #3776ab;
 }
+
 /* Card Felipe Martins */
 
-.conteudo-card #FelipeM{
+.conteudo-card #FelipeM {
   background-color: blue;
 }
