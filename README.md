@@ -13,7 +13,7 @@ Desta forma sera possivel ver a evolução dos alunos conforme avançam no curso
 
 Acesse a pagina aqui!
 
-[Galeria](https://lucianolpsf.github.io/aula_git/)
+[Galeria](https://lucianolpsf.github.io/Galeria-front-end/)
 
 Qualquer individuo pode e esta convidado a participar desta iniciativa e postar aqui o seu card, o mais criativo possivel, tente chamar a atenção de um recrutador com o seu card personalizado.
 
