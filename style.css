@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -17,7 +17,7 @@ body {
 .cabecalho-footer {
   width: 100%;
   height: 120px;
-  background-color: rgb(1, 36, 9);
+  background-color: rgba(10, 139, 40, 0.719);
   color: white;
   display: flex;
   flex-direction: column;
@@ -33,6 +33,7 @@ h1 {
 
 h4 {
   text-align: center;
+  margin: 0 15px;
 }
 
 .conteudo {
@@ -50,11 +51,11 @@ h4 {
 
 .conteudo-card {
   background-color: rgba(0, 0, 0, 0.121);
-  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.612);
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.612);
   width: 230px;
   height: 400px;
   border-radius: 15px;
-  margin: 20px;
+  margin: 10px;
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -110,7 +111,7 @@ h4 {
   width: 230px;
   height: 400px;
   border-radius: 15px;
-  margin: 20px;
+  margin: 10px;
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -147,7 +148,7 @@ h4 {
   width: 230px;
   height: 400px;
   border-radius: 15px;
-  margin: 20px;
+  margin: 10px;
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -187,7 +188,7 @@ h4 {
   width: 230px;
   height: 400px;
   border-radius: 15px;
-  margin: 20px;
+  margin: 10px;
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -223,7 +224,7 @@ h4 {
   width: 230px;
   height: 400px;
   border-radius: 15px;
-  margin: 20px;
+  margin: 10px;
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -260,11 +261,11 @@ h4 {
 
 .conteudo-card-thiago {
   background-color: rgba(255, 0, 0, 0.548);
-  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.612);
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.612);
   width: 230px;
   height: 400px;
   border-radius: 15px;
-  margin: 20px;
+  margin: 10px;
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -309,11 +310,11 @@ h4 {
 
 .conteudo-card-wesleisouza {
   background-color: rgba(225, 240, 15, 0.932);
-  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.612);
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.612);
   width: 230px;
   height: 400px;
   border-radius: 15px;
-  margin: 20px;
+  margin: 10px;
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -367,11 +368,11 @@ h4 {
 /*Card Alan Cleverson*/
 .um {
   background-color: rgb(23, 5, 182);
-  box-shadow: 10px 10px 30px rgba(8, 4, 1, 0.886);
+  box-shadow: 10px 10px 20px rgba(8, 4, 1, 0.886);
   width: 230px;
   height: 400px;
   border-radius: 20px;
-  margin: 20px;
+  margin: 10px;
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -431,11 +432,11 @@ h4 {
 
 .a {
   background-color: rgb(21, 132, 217);
-  box-shadow: 10px 10px 30px rgba(70, 158, 11, 0.886);
+  box-shadow: 10px 10px 20px rgba(70, 158, 11, 0.886);
   width: 230px;
   height: 400px;
   border-radius: 20px;
-  margin: 20px;
+  margin: 10px;
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -475,11 +476,11 @@ h4 {
 
 .cardcicero {
   background-color: rgb(10, 10, 10);
-  box-shadow: 10px 10px 30px rgba(238, 8, 8, 0.886);
+  box-shadow: 10px 10px 20px rgba(238, 8, 8, 0.886);
   width: 230px;
   height: 400px;
   border-radius: 20px;
-  margin: 20px;
+  margin: 10px;
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -490,7 +491,7 @@ h4 {
 
 .cardcicero:hover {
   background-color: rgb(216, 17, 17);
-  box-shadow: 10px 10px 30px rgba(8, 8, 8, 0.886);
+  box-shadow: 10px 10px 20px rgba(8, 8, 8, 0.886);
 }
 
 .butcicero {
@@ -536,7 +537,7 @@ h4 {
 }
 
 .card-img-cicero:hover {
-  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.886);
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.886);
 }
 
 /*Card David Catherinck*/
@@ -551,8 +552,8 @@ h4 {
   background-size: 300% 300%;
   animation: colors 5s ease infinite;
   border-radius: 20px;
-  margin: 20px;
-  box-shadow: 10px 10px 30px rgb(10, 10, 10);
+  margin: 10px;
+  box-shadow: 10px 10px 20px rgb(10, 10, 10);
 }
 
 @keyframes colors {
@@ -653,11 +654,11 @@ h4 {
 
 .conteudo-card-gleydson {
   background-color: rgba(0, 0, 0, 0.121);
-  box-shadow: 10px 10px 30px rgba(3, 122, 250, 0.612);
+  box-shadow: 10px 10px 20px rgba(3, 122, 250, 0.612);
   width: 230px;
   height: 400px;
   border-radius: 15px;
-  margin: 20px;
+  margin: 10px;
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -707,11 +708,11 @@ h4 {
 .cardgustavodiv {
   background-color: rgba(39, 62, 189, 0.541);
   background-image: url("https://wallpaperaccess.com/full/1682034.png");
-  box-shadow: 10px 10px 30px rgba(7, 7, 7, 0.612);
+  box-shadow: 10px 10px 20px rgba(7, 7, 7, 0.612);
   width: 230px;
   height: 400px;
   border-radius: 15px;
-  margin: 20px;
+  margin: 10px;
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -769,18 +770,18 @@ h4 {
   flex-wrap: wrap;
   justify-content: center;
   color: white;
-  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.612);
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.612);
   margin-top: 2rem;
   border-radius: 15px;
 }
 
 .conteudo-card-felipeguimaraes {
   background-image: url("https://wallpaperaccess.com/full/389987.jpg");
-  box-shadow: 10px 10px 30px rgba(30, 63, 102, 0.612);
+  box-shadow: 10px 10px 20px rgba(30, 63, 102, 0.612);
   width: 230px;
   height: 400px;
   border-radius: 15px;
-  margin: 20px;
+  margin: 10px;
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -835,18 +836,18 @@ h4 {
   flex-wrap: wrap;
   justify-content: center;
   color: white;
-  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.612);
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.612);
   margin-top: 2rem;
   border-radius: 15px;
 }
 
 .conteudo-card-luan {
   background-color: rgb(2, 1, 68);
-  box-shadow: 10px 10px 30px rgba(30, 63, 102, 0.612);
+  box-shadow: 10px 10px 20px rgba(30, 63, 102, 0.612);
   width: 230px;
   height: 400px;
   border-radius: 15px;
-  margin: 20px;
+  margin: 10px;
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -901,18 +902,18 @@ h4 {
   flex-wrap: wrap;
   justify-content: center;
   color: white;
-  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.612);
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.612);
   margin-top: 2rem;
   border-radius: 15px;
 }
 
 .conteudo-card-junio {
   background-color: rgb(2, 1, 68);
-  box-shadow: 10px 10px 30px rgba(30, 63, 102, 0.612);
+  box-shadow: 10px 10px 20px rgba(30, 63, 102, 0.612);
   width: 230px;
   height: 400px;
   border-radius: 15px;
-  margin: 20px;
+  margin: 10px;
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -1050,7 +1051,7 @@ h4 {
 .conteudo-card-lf {
   width: 230px;
   height: 400px;
-  margin: 20px;
+  margin: 10px;
   padding: 20px;
   border-radius: 15px;
   background-color: #1C3B56;
