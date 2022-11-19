@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: rgb(255, 255, 255);
+  background-color:  rgba(10, 139, 40, 0.459);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -17,7 +17,8 @@ body {
 .cabecalho-footer {
   width: 100%;
   height: 120px;
-  background-color: rgba(10, 139, 40, 0.719);
+  background-color: rgb(3, 59, 16);
+  box-shadow: 0px 0px 20px black;
   color: white;
   display: flex;
   flex-direction: column;
@@ -25,10 +26,10 @@ body {
   justify-content: center;
 }
 
-h1 {
+.header-senai{
+  width: 150px;
+  height: auto;
   margin: 0.5rem;
-  font-size: 3em;
-  font-variant-caps: all-petite-caps;
 }
 
 h4 {
@@ -37,7 +38,7 @@ h4 {
 }
 
 .conteudo {
-  background-color: rgba(114, 113, 113, 0.884);
+  background-color: #919191;
   width: 95%;
   height: 100%;
   display: flex;
@@ -47,10 +48,11 @@ h4 {
   box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.612);
   margin: 2rem 0px;
   border-radius: 15px;
+  padding: 25px 0px;
 }
 
 .conteudo-card {
-  background-color: rgba(0, 0, 0, 0.121);
+  background-color: #737272;/*#737272*/
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.612);
   width: 230px;
   height: 400px;
@@ -67,7 +69,7 @@ h4 {
 }
 
 .conteudo-card:hover {
-  background-color: rgba(207, 205, 205, 0.116);
+  background-color: #8c8b8b;/*#8c8b8b*/
 }
 
 .card-img {
@@ -105,193 +107,106 @@ h4 {
 
 /*Estilo do IGOR*/
 
-.conteudo-cardigor {
+ #igor {
   background-color: #821fc5;
   box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.612);
-  width: 230px;
-  height: 400px;
-  border-radius: 15px;
-  margin: 10px;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
-.conteudo-cardigor:hover {
-  background-color: rgba(207, 205, 205, 0.116);
+#igor:hover {
+  background-color: #8c8b8b;
 }
 
-.card-linkigor {
-  margin: 2rem;
-  text-decoration: none;
+#igor .card-link {
   color: rgba(68, 68, 247, 0.782);
-  padding: 1rem 2rem;
-  border-radius: 30px;
   background-color: white;
-  transition: 0.3s;
-  font-size: larger;
+
 }
 
-.card-linkigor:hover {
+#igor > .card-link:hover {
   color: white;
   background-color: rgba(25, 25, 71, 0.712);
-  font-size: larger;
 }
 
 /*card iago*/
 
-.cardiago {
+#iago {
   background-color: #0d3c39;
-  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.612);
-  width: 230px;
-  height: 400px;
-  border-radius: 15px;
-  margin: 10px;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
-.cardiago:hover {
-  background-color: rgba(207, 205, 205, 0.116);
+#iago:hover {
+  background-color: #8c8b8b;
 }
 
-.card-iago {
-  margin: 2rem;
-  text-decoration: none;
+#iago .card-link {
   color: rgba(203, 54, 8, 0.782);
-  padding: 1rem 2rem;
-  border-radius: 30px;
   background-color: rgb(137, 159, 138);
-  transition: 0.3s;
-  font-size: larger;
 }
 
-.card-iago:hover {
+#iago .card-link:hover {
   color: white;
   background-color: rgba(23, 178, 187, 0.782);
   font-size: larger;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/*card iago*/
-
 /* Estilo do Lucas Lima */
 
-.conteudo-cardlucaslima {
+#lucaslima {
   background-color: black;
-  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.612);
-  width: 230px;
-  height: 400px;
-  border-radius: 15px;
-  margin: 10px;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
-.conteudo-cardlucaslima:hover {
-  background-color: rgba(207, 205, 205, 0.116);
+#lucaslima:hover {
+  background-color: #8c8b8b;
 }
 
-.card-linklucaslima {
-  margin: 2rem;
-  text-decoration: none;
-  color: white;
-  padding: 1rem 2rem;
-  border-radius: 30px;
+#lucaslima .card-link  {
   background-color: #80a62d;
-  transition: 0.3s;
-  font-size: larger;
 }
 
-.card-linklucaslima:hover {
+#lucaslima .card-link:hover {
   color: #80a62d;
   background-color: white;
-  font-size: larger;
 }
 
 /*Card Wesley*/
-.conteudo-wesley {
+#wesley {
   background-color: rgb(22, 61, 18);
-  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.612);
-  width: 230px;
-  height: 400px;
-  border-radius: 15px;
-  margin: 10px;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
-.conteudo-wesley:hover {
+#wesley:hover {
   background-color: #0d3c39;
 }
 
-.card-wesley {
-  margin: 2rem;
-  text-decoration: none;
-  color: white;
-  padding: 1rem 2rem;
-  border-radius: 30px;
+#wesley .card-link{
   background-color: #31834c;
-  transition: 0.3s;
-  font-size: larger;
-}
+ }
 
-.card-wesley:hover {
+#wesley .card-link:hover {
   color: #000000;
-  background-color: rgb(255, 255, 255);
-  font-size: larger;
 }
 
-.wesley-img {
-  border-radius: 50%;
+#wesley .card-img {
   width: 155px;
   height: 165px;
 }
 
-.conteudo-card-thiago {
+/* Card thiago */
+#thiago {
   background-color: rgba(255, 0, 0, 0.548);
-  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.612);
-  width: 230px;
-  height: 400px;
-  border-radius: 15px;
-  margin: 10px;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  transition: 0s;
 }
 
-.conteudo-card-thiago:hover {
-  background-color: rgba(207, 205, 205, 0.116);
+#thiago:hover {
+  background-color: #8c8b8b;
 }
 
-.card-link-thiago {
-  margin: 2rem;
-  text-decoration: none;
-  color: white;
-  padding: 1rem 2rem;
-  border-radius: 30px;
+#thiago .card-link {
   background-color: rgba(0, 0, 0, 0.938);
-  transition: 0.3s;
-  font-size: larger;
 }
 
-.card-link-thiago:hover {
+#thiago .card-link:hover {
   color: white;
   background-color: rgba(255, 0, 0, 0.945);
-  font-size: larger;
 }
 
 /*Card Weslei.souza*/
@@ -323,7 +238,7 @@ h4 {
 }
 
 .conteudo-card-wesleisouza:hover {
-  background-color: rgba(207, 205, 205, 0.116);
+  background-color: #8c8b8b;
 }
 
 .card-img-wesleisouza {
@@ -653,7 +568,7 @@ h4 {
 }
 
 .conteudo-card-gleydson {
-  background-color: rgba(0, 0, 0, 0.121);
+  background-color: #737272;
   box-shadow: 10px 10px 20px rgba(3, 122, 250, 0.612);
   width: 230px;
   height: 400px;
@@ -724,7 +639,7 @@ h4 {
 }
 
 .cardgustavodiv:hover {
-  background-color: rgba(207, 205, 205, 0.116);
+  background-color: #8c8b8b;
 }
 
 .imggustavo {
@@ -1047,20 +962,12 @@ h4 {
   text-shadow: #000000;
 }
 
-/* LF card */
-.conteudo-card-lf {
-  width: 230px;
-  height: 400px;
-  margin: 10px;
-  padding: 20px;
-  border-radius: 15px;
+/* Lucio F card */
+#lf {
   background-color: #1C3B56;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
 }
 
-.conteudo-card-lf:hover {
+#lf:hover {
   background-color: #2b5b84;
 }
 
@@ -1098,6 +1005,10 @@ h4 {
 
 /* Card Felipe Martins */
 
-.conteudo-card #FelipeM {
+#FelipeM {
   background-color: blue;
+}
+
+#FelipeM:hover {
+  background-color: #8c8b8b;
 }
