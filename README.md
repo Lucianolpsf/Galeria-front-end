@@ -22,4 +22,5 @@ As regras a serem obedecidas são estas:
 - O card não podera ter seu tamanho alterado, obedecendo assim o padrão estabelecido;
 - Obedecendo as dimenções do card tudo é valido no seu conteudo para chamar atenção;
 - De forma alguma prejudique o card de outro colega desenvolvedor;
-- sinta-se convidade para contribuir corrigindo eventuais bug que possa encontrar.
+- Sinta-se convidade para contribuir corrigindo eventuais bugs que possa encontrar.
+- Crie seu card em um nova branch, lembre-se que a branch main deve sempre se manter estavel.

@@ -1,113 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300&display=swap");
-
-* {
-  padding: 0;
-  margin: 0;
-  font-family: "roboto", sans-serif;
-}
-
-body {
-  background-color:  rgba(10, 139, 40, 0.459);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.cabecalho-footer {
-  width: 100%;
-  height: 120px;
-  background-color: rgb(3, 59, 16);
-  box-shadow: 0px 0px 20px black;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.header-senai{
-  width: 150px;
-  height: auto;
-  margin: 0.5rem;
-}
-
-h4 {
-  text-align: center;
-  margin: 0 15px;
-}
-
-.conteudo {
-  background-color: #919191;
-  width: 95%;
-  height: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  color: white;
-  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.612);
-  margin: 2rem 0px;
-  border-radius: 15px;
-  padding: 25px 0px;
-}
-
-.conteudo-card {
-  background-color: #737272;/*#737272*/
-  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.612);
-  width: 230px;
-  height: 400px;
-  border-radius: 15px;
-  margin: 10px;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  transition: 0.3s;
-  border-top: 1px solid rgba(255, 255, 255, 0.5);
-  border-left: 1px solid rgba(255, 255, 255, 0.5);
-}
-
-.conteudo-card:hover {
-  background-color: #8c8b8b;/*#8c8b8b*/
-}
-
-.card-img {
-  border-radius: 50%;
-  width: 150px;
-  height: auto;
-}
-
-.card-titulo {
-  font-size: 2em;
-  margin: 1.5rem 0;
-}
-
-.card-descricao {
-  text-align: center;
-  font-size: 1.1em;
-}
-
-.card-link {
-  margin: 2rem;
-  text-decoration: none;
-  color: white;
-  padding: 1rem 2rem;
-  border-radius: 30px;
-  background-color: rgba(68, 68, 247, 0.782);
-  transition: 0.3s;
-  font-size: larger;
-}
-
-.card-link:hover {
-  color: rgba(68, 68, 247, 0.782);
-  background-color: white;
-  font-size: larger;
-}
-
 /*Estilo do IGOR*/
-
- #igor {
+#igor {
   background-color: #821fc5;
   box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.612);
 }
@@ -119,7 +11,6 @@ h4 {
 #igor .card-link {
   color: rgba(68, 68, 247, 0.782);
   background-color: white;
-
 }
 
 #igor > .card-link:hover {
@@ -128,7 +19,6 @@ h4 {
 }
 
 /*card iago*/
-
 #iago {
   background-color: #0d3c39;
 }
@@ -149,8 +39,48 @@ h4 {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Estilo do Lucas Lima */
+/* Lucio F card */
+#lf {
+  background-color: #1c3b56;
+}
 
+#lf:hover {
+  background-color: #2b5b84;
+}
+
+.card-img-lf {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+}
+
+.card-titulo-lf {
+  font-family: Verdana, sans-serif;
+  font-weight: 900;
+  font-size: 30px;
+  padding: 15px 0;
+}
+
+.card-descricao-lf {
+  font-family: sans-serif;
+  margin: 15px;
+}
+
+.card-link-lf {
+  color: white;
+  text-decoration: none;
+  margin: 32px;
+  padding: 16px 32px;
+  border-radius: 30px;
+  background-color: #1f2a32;
+}
+
+.card-link-lf:hover {
+  background-color: #3776ab;
+}
+
+/* Estilo do Lucas Lima */
 #lucaslima {
   background-color: black;
 }
@@ -159,7 +89,7 @@ h4 {
   background-color: #8c8b8b;
 }
 
-#lucaslima .card-link  {
+#lucaslima .card-link {
   background-color: #80a62d;
 }
 
@@ -177,9 +107,9 @@ h4 {
   background-color: #0d3c39;
 }
 
-#wesley .card-link{
+#wesley .card-link {
   background-color: #31834c;
- }
+}
 
 #wesley .card-link:hover {
   color: #000000;
@@ -210,34 +140,11 @@ h4 {
 }
 
 /*Card Weslei.souza*/
-.conteudo-wesleisouza {
+#wesleisouza {
   background-color: rgba(214, 218, 18, 0.897);
-  width: 90%;
-  height: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  color: white;
-  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.612);
-  margin-top: 2rem;
-  border-radius: 15px;
 }
 
-.conteudo-card-wesleisouza {
-  background-color: rgba(225, 240, 15, 0.932);
-  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.612);
-  width: 230px;
-  height: 400px;
-  border-radius: 15px;
-  margin: 10px;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.conteudo-card-wesleisouza:hover {
+#wesleisouza:hover {
   background-color: #8c8b8b;
 }
 
@@ -247,31 +154,9 @@ h4 {
   height: 165px;
 }
 
-.card-titulo-wesleisouza {
-  font-size: 2em;
-  margin: 1.5rem 0;
-}
-
 .card-descricao-wesleisouza {
   text-align: center;
   font-size: 1.1em;
-}
-
-.card-link-wesleisouza {
-  margin: 2rem;
-  text-decoration: none;
-  color: black;
-  padding: 1rem 2rem;
-  border-radius: 30px;
-  background-color: rgba(173, 16, 16, 0.966);
-  transition: 0.3s;
-  font-size: larger;
-}
-
-.card-link-wesleisouza:hover {
-  color: rgba(221, 235, 231, 0.911);
-  background-color: rgba(16, 16, 17, 0.014);
-  font-size: larger;
 }
 
 .weslei.souza-img {
@@ -281,56 +166,28 @@ h4 {
 }
 
 /*Card Alan Cleverson*/
-.um {
+#alan-cleverson {
   background-color: rgb(23, 5, 182);
-  box-shadow: 10px 10px 20px rgba(8, 4, 1, 0.886);
-  width: 230px;
-  height: 400px;
   border-radius: 20px;
   margin: 10px;
-  padding: 20px;
-  display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   text-align: center;
 }
 
-.um:hover {
+#alan-cleverson:hover {
   background-color: rgb(7, 7, 142);
-}
-
-.quatro {
-  margin: 2rem;
-  text-decoration: none;
-  color: rgb(255, 255, 255);
-  padding: 1rem 2rem;
-  border-radius: 30px;
-  background-color: rgba(237, 64, 64, 0.938);
-  border-color: white;
-  transition: 0.3s;
-  font-size: larger;
-  text-align: center;
-}
-
-.quatro:hover {
-  color: rgb(8, 8, 8);
-  background-color: rgba(238, 22, 22, 0.945);
-  font-size: larger;
-}
-
-.dois {
-  font-size: 180%;
 }
 
 /*Card Diogo Vilela*/
 #diogo__vilela {
-  background: url("https://img.wallpapic-br.com/i8959-323-227/thumb/galaxia-roxos-espaco-sideral-nebulosa-imagem-de-fundo.jpg") left bottom;
+  background: url("https://img.wallpapic-br.com/i8959-323-227/thumb/galaxia-roxos-espaco-sideral-nebulosa-imagem-de-fundo.jpg")
+    left bottom;
   transition: 5s;
 }
 
 #diogo__vilela:hover {
-  background: url("https://img.wallpapic-br.com/i8959-323-227/thumb/galaxia-roxos-espaco-sideral-nebulosa-imagem-de-fundo.jpg") right bottom;
+  background: url("https://img.wallpapic-br.com/i8959-323-227/thumb/galaxia-roxos-espaco-sideral-nebulosa-imagem-de-fundo.jpg")
+    right bottom;
 }
 
 #diogo__vilela-button {
@@ -344,23 +201,13 @@ h4 {
 }
 
 /*Card Hugo Gonçalves*/
-
-.a {
+#hugo-goncalves {
   background-color: rgb(21, 132, 217);
   box-shadow: 10px 10px 20px rgba(70, 158, 11, 0.886);
-  width: 230px;
-  height: 400px;
-  border-radius: 20px;
-  margin: 10px;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   text-align: center;
 }
 
-.a:hover {
+#hugo-goncalves:hover {
   background-color: rgb(7, 102, 114);
 }
 
@@ -387,45 +234,27 @@ h4 {
   font-size: 180%;
 }
 
-/*Card Hugo Gonçalves*/
-
-.cardcicero {
+/*Card Cicero*/
+#cardcicero {
   background-color: rgb(10, 10, 10);
   box-shadow: 10px 10px 20px rgba(238, 8, 8, 0.886);
-  width: 230px;
-  height: 400px;
-  border-radius: 20px;
-  margin: 10px;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+
   text-align: center;
 }
 
-.cardcicero:hover {
+#cardcicero:hover {
   background-color: rgb(216, 17, 17);
   box-shadow: 10px 10px 20px rgba(8, 8, 8, 0.886);
 }
 
-.butcicero {
-  margin: 2rem;
-  text-decoration: none;
-  color: rgb(255, 255, 255);
-  padding: 1rem 2rem;
-  border-radius: 30px;
+#cardcicero > a {
   background-color: rgba(245, 6, 6, 0.938);
   border-color: rgb(255, 255, 255);
-  transition: 0.3s;
-  font-size: larger;
-  text-align: center;
 }
 
-.butcicero:hover {
+#cardcicero > a:hover {
   color: rgb(214, 20, 20);
   background-color: rgba(8, 8, 8, 0.945);
-  font-size: larger;
 }
 
 .textocicero {
@@ -456,14 +285,15 @@ h4 {
 }
 
 /*Card David Catherinck*/
-
 .david-teste {
-  background: linear-gradient(90deg,
-      #000000,
-      #50577a,
-      #ffffff,
-      #50577a,
-      #000000);
+  background: linear-gradient(
+    90deg,
+    #000000,
+    #50577a,
+    #ffffff,
+    #50577a,
+    #000000
+  );
   background-size: 300% 300%;
   animation: colors 5s ease infinite;
   border-radius: 20px;
@@ -554,42 +384,18 @@ h4 {
 }
 
 /*Gleydson Saraiva*/
-.conteudo-gleydson {
-  background-color: rgba(4, 106, 248, 0.919);
-  width: 90%;
-  height: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  color: white;
-  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.612);
-  margin-top: 2rem;
+#gleydson-saraiva {
+  box-shadow: 5px 5px 5px rgba(4, 106, 248, 0.919);
   border-radius: 15px;
 }
 
-.conteudo-card-gleydson {
+#gleydson-saraiva {
   background-color: #737272;
   box-shadow: 10px 10px 20px rgba(3, 122, 250, 0.612);
-  width: 230px;
-  height: 400px;
-  border-radius: 15px;
-  margin: 10px;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
-.conteudo-card-gleydson:hover {
+#gleydson-saraiva:hover {
   background-color: rgba(7, 121, 235, 0.116);
-  /*rgba(207, 205, 205, 0.116)*/
-}
-
-.card-img-gleydson {
-  border-radius: 50%;
-  width: 150px;
-  height: auto;
 }
 
 .card-titulo-gleydson {
@@ -602,17 +408,6 @@ h4 {
   font-size: 1.1em;
 }
 
-.card-link-gleydson {
-  margin: 2rem;
-  text-decoration: none;
-  color: white;
-  padding: 1rem 2rem;
-  border-radius: 30px;
-  background-color: rgba(68, 68, 247, 0.782);
-  transition: 0.3s;
-  font-size: larger;
-}
-
 .card-link-gleydson:hover {
   color: rgba(68, 68, 247, 0.782);
   background-color: white;
@@ -620,43 +415,24 @@ h4 {
 }
 
 /** Card Gustavo Peixoto **/
-.cardgustavodiv {
+#cardgustavodiv {
   background-color: rgba(39, 62, 189, 0.541);
   background-image: url("https://wallpaperaccess.com/full/1682034.png");
   box-shadow: 10px 10px 20px rgba(7, 7, 7, 0.612);
-  width: 230px;
-  height: 400px;
-  border-radius: 15px;
-  margin: 10px;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  transition: 0.3s;
-  border-top: 1px solid rgba(255, 255, 255, 0.5);
-  border-left: 1px solid rgba(255, 255, 255, 0.5);
 }
 
-.cardgustavodiv:hover {
+#cardgustavodiv:hover {
   background-color: #8c8b8b;
+}
+
+#cardgustavodiv > h2 {
+  text-align: center;
 }
 
 .imggustavo {
   border-radius: 50%;
   width: 150px;
   height: auto;
-}
-
-.titulogustavo {
-  font-size: 2em;
-  margin: 1.5rem 0;
-  text-align: center;
-}
-
-.conteudogustavo {
-  text-align: center;
-  font-size: 1.1em;
 }
 
 .cardlinkgpc {
@@ -677,31 +453,9 @@ h4 {
 }
 
 /*Felipe Guimarães*/
-.conteudo-felipeguimaraes {
-  background-color: rgba(11, 18, 56, 0.541);
-  width: 80%;
-  height: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  color: white;
-  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.612);
-  margin-top: 2rem;
-  border-radius: 15px;
-}
-
-.conteudo-card-felipeguimaraes {
+#felipeguimaraes {
   background-image: url("https://wallpaperaccess.com/full/389987.jpg");
   box-shadow: 10px 10px 20px rgba(30, 63, 102, 0.612);
-  width: 230px;
-  height: 400px;
-  border-radius: 15px;
-  margin: 10px;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 .conteudo-card-felipeguimaraes:hover {
@@ -719,163 +473,78 @@ h4 {
   margin: 1.5rem 0;
 }
 
-.card-descricao-felipeguimaraes {
+#felipeguimaraes > .card-descricao {
   text-align: center;
   font-size: 1.1em;
 }
 
-.card-link-felipeguimaraes {
-  margin: 2rem;
-  text-decoration: none;
-  color: white;
-  padding: 1rem 2rem;
-  border-radius: 30px;
-  background-color: rgba(68, 68, 247, 0.782);
-  transition: 0.3s;
-  font-size: larger;
-}
-
-.card-link-felipeguimaraes:hover {
+#felipeguimaraes > .card-link:hover {
   color: rgba(128, 153, 15, 0.782);
   background-color: black;
-  font-size: larger;
 }
 
-/* Card Luan */
-
+/* Card Luan */;
 .conteudo-luan {
   background-color: rgba(11, 18, 56, 0.541);
-  width: 80%;
-  height: 100%;
-  display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  color: white;
-  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.612);
   margin-top: 2rem;
-  border-radius: 15px;
 }
 
-.conteudo-card-luan {
+#luansouza {
   background-color: rgb(2, 1, 68);
   box-shadow: 10px 10px 20px rgba(30, 63, 102, 0.612);
-  width: 230px;
-  height: 400px;
-  border-radius: 15px;
-  margin: 10px;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
-.conteudo-card-luan:hover {
+#luansouza:hover {
   background-image: url("https://static.vecteezy.com/system/resources/previews/001/882/531/original/dark-blue-technology-background-free-vector.jpg");
 }
 
-.card-img-luan {
-  border-radius: 30px;
-  width: 150px;
-  /* height: auto; */
-}
-
-.card-titulo-luan {
+#luansouza > .card-titulo {
   font-size: 1.7em;
-  margin: 1.5rem 0;
 }
 
-.card-descricao-luan {
-  text-align: center;
-  font-size: 1.1em;
-}
-
-.card-link-luan {
-  margin: 2rem;
-  text-decoration: none;
-  color: white;
-  padding: 1rem 2rem;
+#luansouza > .card-link {
   border-radius: 10px;
   background-color: rgba(42, 42, 43, 0.782);
-  transition: 0.3s;
-  font-size: larger;
 }
 
-.card-link-luan:hover {
+#luansouza > .card-link:hover {
   color: rgba(255, 255, 255, 0.782);
   background-color: rgba(148, 148, 148, 0.782);
-  font-size: larger;
 }
 
 /* Card junio */
-
-.conteudo-junio {
-  background-color: rgba(11, 18, 56, 0.541);
-  width: 80%;
-  height: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  color: white;
-  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.612);
-  margin-top: 2rem;
-  border-radius: 15px;
-}
-
-.conteudo-card-junio {
+#junioguilherme {
   background-color: rgb(2, 1, 68);
   box-shadow: 10px 10px 20px rgba(30, 63, 102, 0.612);
-  width: 230px;
-  height: 400px;
-  border-radius: 15px;
-  margin: 10px;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
-.conteudo-card-junio:hover {
+#junioguilherme:hover {
   background-image: url("https://static.vecteezy.com/system/resources/previews/001/882/531/original/dark-blue-technology-background-free-vector.jpg");
 }
 
-.card-img-junio {
+#junioguilherme > .card-titulo {
+  font-size: 1.7em;
+}
+
+#junioguilherme > .card-link {
+  border-radius: 10px;
+  background-color: rgba(42, 42, 43, 0.782);
+}
+
+#junioguilherme > .card-link:hover {
+  color: rgba(255, 255, 255, 0.782);
+  background-color: rgba(148, 148, 148, 0.782);
+}
+
+#junioguilherme > .card-img {
   border-radius: 30px;
   width: 150px;
   height: 200px;
   margin-top: 20px;
 }
 
-.card-titulo-junio {
-  font-size: 1.7em;
-  margin: 1.5rem 0;
-}
-
-.card-descricao-junio {
-  text-align: center;
-  font-size: 1.1em;
-}
-
-.card-link-junio {
-  margin: 2rem;
-  text-decoration: none;
-  color: white;
-  padding: 1rem 2rem;
-  border-radius: 10px;
-  background-color: rgba(42, 42, 43, 0.782);
-  transition: 0.3s;
-  font-size: larger;
-}
-
-.card-link-junio:hover {
-  color: rgba(255, 255, 255, 0.782);
-  background-color: rgba(148, 148, 148, 0.782);
-  font-size: larger;
-}
-
 /* Card DanielSN */
-
 @keyframes neon {
   0% {
     box-shadow: 0 0 30px #ff0000;
@@ -962,49 +631,7 @@ h4 {
   text-shadow: #000000;
 }
 
-/* Lucio F card */
-#lf {
-  background-color: #1C3B56;
-}
-
-#lf:hover {
-  background-color: #2b5b84;
-}
-
-.card-img-lf {
-  border-radius: 50%;
-  width: 150px;
-  height: 150px;
-  padding: 10px;
-}
-
-.card-titulo-lf {
-  font-family: Verdana, sans-serif;
-  font-weight: 900;
-  font-size: 30px;
-  padding: 15px 0;
-}
-
-.card-descricao-lf {
-  font-family: sans-serif;
-  margin: 15px;
-}
-
-.card-link-lf {
-  color: white;
-  text-decoration: none;
-  margin: 32px;
-  padding: 16px 32px;
-  border-radius: 30px;
-  background-color: #1f2a32;
-}
-
-.card-link-lf:hover {
-  background-color: #3776ab;
-}
-
 /* Card Felipe Martins */
-
 #FelipeM {
   background-color: blue;
 }
@@ -1021,5 +648,3 @@ h4 {
 #Card-Márcio-Cardoso:hover {
   background-color: #0f4803d7;
 }
-
-
