@@ -316,7 +316,7 @@
 }
 
 .david-teste1 {
-  background: url("./img/starWars.jpg");
+  background: url("../img/starWars.jpg");
   background-size: 140%;
   background-position: center;
   opacity: 0.8;
@@ -571,7 +571,7 @@
 
 #danielsn {
   animation: neon 5s alternate infinite ease-in-out;
-  background-image: url(./img/tunel.gif);
+  background-image: url(../img/tunel.gif);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
