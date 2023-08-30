@@ -648,3 +648,28 @@
 #Card-Márcio-Cardoso:hover {
   background-color: #0f4803d7;
 }
+
+
+/* Card Eric */
+
+#Eric{
+  background-color: #191919;
+  text-shadow: 3px 2px 2px rgb(0, 0, 0);
+}
+
+#Eric:hover{
+  background-color: #000000;
+
+}
+
+#Eric > a {
+  background-color: #F9004D;
+}
+
+
+#Eric > a:hover{
+  background-color: #060606;
+  color: white;
+  border: solid 1px #F9004D;
+  
+}
