@@ -648,3 +648,44 @@
 #Card-Márcio-Cardoso:hover {
   background-color: #0f4803d7;
 }
+#cardPedro{
+  font-family: 'Press Start 2P', cursive;
+  background-image: url("../img/lofi-digital-memory-card-cemetery-floi4lewy02h1lzi.gif");
+  box-shadow: 15px 11px 15px 0px rgb(0, 0, 0);
+
+}
+#cardPedro h2, #cardPedro p, #cardPedro a{
+  font-family: inherit;
+  text-shadow: 6px 4px 5px rgba(0,0,0,0.58);
+  
+}
+
+#cardPedro h2{
+  font-size: 15px;
+  line-height: 20px;
+}
+#cardPedro p{
+  font-size: 10px;
+  line-height: 15px;
+}
+
+#pedroimg{
+  border-radius: 0px;
+  border: 1px solid;
+}
+#cardPedro a{
+  font-size: 7px;
+  border-radius: 0px;
+}
+
+#cardPedro a:hover{
+  border: 2px solid black;
+  transform: scale(2);
+  background: no-repeat;
+  background-position: left center;
+  background-size: contain;
+  background-color: #00f3fc;
+  background-image: url("../img/8-bit-pyro-tf2-sticker-u62elcx9ad0mlyam.gif");
+  color: rgb(255, 255, 255);
+  text-shadow: 1px -1px 0px #000000;
+}
