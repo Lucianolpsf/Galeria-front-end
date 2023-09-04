@@ -649,6 +649,14 @@
   background-color: #0f4803d7;
 }
 
+
+/* Card João Vítor */
+
+#JoãoVítor {
+  background-image: url(../img/black-clover-anime-4k.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+}
 #cardPedro{
   font-family: 'Press Start 2P', cursive;
   background-image: url("../img/lofi-digital-memory-card-cemetery-floi4lewy02h1lzi.gif");
