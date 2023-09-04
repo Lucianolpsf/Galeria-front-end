@@ -586,12 +586,14 @@
     font-size: 2.5em;
     font-weight: bold;
     background: linear-gradient(#ffffff, #666666 95%);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 #danielsn .flipp-front .card-titulo .sn {
     background: linear-gradient(#ffff00, #fd9800 95%);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
