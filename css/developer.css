@@ -648,3 +648,28 @@
 #Card-Márcio-Cardoso:hover {
   background-color: #0f4803d7;
 }
+
+/* ronaldo */
+
+#RonaldoSilva {
+  background-color: black;
+}
+
+#RonaldoSilva:hover {
+  background-color: #8c8b8b;
+}
+
+#RonaldoSilva .card-link {
+  background-color:#da1616;
+}
+
+#RonaldoSilva .card-link:hover {
+  color: #cc0000;
+  background-color: #fff;
+}
+.conteudo-card .card-img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+}
