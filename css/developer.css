@@ -648,3 +648,12 @@
 #Card-Márcio-Cardoso:hover {
   background-color: #0f4803d7;
 }
+
+/*Card-Matheus-Lima*/
+#card-matheus {
+  background-image: url(../img/giphy.gif);
+}
+
+#card-matheus:hover {
+  background-image: url(../img/giphy.gif);
+}
