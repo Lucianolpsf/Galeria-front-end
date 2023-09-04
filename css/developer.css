@@ -649,6 +649,7 @@
   background-color: #0f4803d7;
 }
 
+
 /* Card Ítalo Gadelha */
 
 #idimga {
@@ -669,4 +670,125 @@
 }
 #idbimga:hover {
   color: #00e617;
+}
+/* ronaldo */
+
+#RonaldoSilva {
+  background-color: black;
+}
+
+#RonaldoSilva:hover {
+  background-color: #8c8b8b;
+}
+
+#RonaldoSilva .card-link {
+  background-color:#da1616;
+}
+
+#RonaldoSilva .card-link:hover {
+  color: #cc0000;
+  background-color: #fff;
+}
+.conteudo-card .card-img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+}
+/*Card bruno*/
+#card-bruno-kendy {
+  background-color: #c5510e;
+  box-shadow: 10px 15px 20px rgb(255 255 255);
+}
+#card-bruno-kendy:hover {
+  background-color: #c5510e;
+  transform: scale(1.1);
+}
+#card-bruno-kendy a {
+  background-color: #000000;
+  transition: color .5s;
+  animation: attentionCall infinite 5s;
+  border-radius: 10px;
+}
+#card-bruno-kendy a:hover {
+  color: #c5510e;
+  animation: none;
+}
+@keyframes attentionCall {
+  48% {
+    transform: scale(1);
+  }
+  49% {
+    transform: scale(1.1);
+  }
+  50% {
+    rotate: 0deg;
+  }
+  55% {
+    rotate: 10deg;
+  }
+  60% {
+    rotate: -10deg;
+  }
+  65% {
+    rotate: 10deg;
+  }
+  70% {
+    rotate: -10deg;
+    transform: scale(1.1)
+  }
+  71% {
+    rotate: 0deg;
+    transform: scale(1.05);
+  }
+  72% {
+    transform: scale(1.0);
+  }
+  100% {
+    rotate: 0deg;
+  }
+}
+
+/*Card Renata*/
+#renatarcs{
+  color: rgb(233, 10, 158);
+  background-color:pink;
+}
+#renatarcs:hover{
+  background-color: black;
+}
+#cursor {
+  margin-left: 2px;
+  width: .2px;
+  background-color: #ccc;
+  animation: piscar 1s infinite;
+}
+#cursor.escrevendo {
+  animation: none;
+}
+#texto-digitado {
+  color: var(--primaria);
+}
+/* Card Eric */
+
+#Eric{
+  background-color: #191919;
+  text-shadow: 3px 2px 2px rgb(0, 0, 0);
+}
+
+#Eric:hover{
+  background-color: #000000;
+
+}
+
+#Eric > a {
+  background-color: #F9004D;
+}
+
+
+#Eric > a:hover{
+  background-color: #060606;
+  color: white;
+  border: solid 1px #F9004D;
+  
 }
