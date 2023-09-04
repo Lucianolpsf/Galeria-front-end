@@ -649,6 +649,28 @@
   background-color: #0f4803d7;
 }
 
+
+/* Card Ítalo Gadelha */
+
+#idimga {
+  background-image: url(/img/Digital_rain.gif);
+}
+#idpimga {
+  color: #ffffff;
+  text-shadow: 0 0 5px #000000, 0 0 5px #000000, 0 0 1px #00e617, 0 0 20px #00e673, 0 0 25px #00e65c, 0 0 30px #00e668, 0 0 25px #00e65c;
+  font-family: 'Handjet', Bold;
+}
+#iimga {
+  box-shadow:0 0 1px #01ff01, 0 0 10px #ffffff, 0 0 1px #00e617, 0 0 20px #00e673, 0 0 25px #00e65c, 0 0 30px #00e668, 0 0 25px #00e65c;
+}
+#idbimga {
+  box-shadow:0 0 5px #000000, 0 0 10px #000000, 0 0 1px #00e617, 0 0 20px #00e673, 0 0 25px #00e65c, 0 0 30px #00e668, 0 0 25px #00e65c;
+  background-color: #000000;
+  font-family: 'Handjet', Bold;
+}
+#idbimga:hover {
+  color: #00e617;
+}
 /* ronaldo */
 
 #RonaldoSilva {
