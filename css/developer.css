@@ -731,12 +731,7 @@
   color: #cc0000;
   background-color: #fff;
 }
-.conteudo-card .card-img {
-  border-radius: 50%;
-  width: 150px;
-  height: 150px;
-  padding: 10px;
-}
+
 /*Card bruno*/
 #card-bruno-kendy {
   background-color: #c5510e;
