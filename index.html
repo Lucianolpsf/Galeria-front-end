@@ -55,6 +55,34 @@
             >Portfolio</a
           >
         </div>
+        <!-- Card Renata Carvalho-->
+        <div class="conteudo-card" id="renatarcs">
+          <img class="card-img" src="./img/re.jpg" alt="Renata Carvalho" />
+          <h2 class="card-titulo"><span id="typed-name"></span></h2>
+          <p class="card-descricao">
+          Estudante de ADS e apaixonada por programação.
+          </p>
+          <a
+            href=" https://renata-rcs.github.io/Portifolio/"
+            class="card-link"
+            target="_blank"
+            >Portfolio</a
+          >
+        </div>
+        <script>var nameElement = document.getElementById("typed-name");
+          var name = "Renata carvalho";
+          var charIndex = 0;
+          var typingSpeed = 100; // Velocidade de digitação (em milissegundos)
+          
+          function typeNextChar() {
+              if (charIndex < name.length) {
+                  nameElement.innerHTML += name.charAt(charIndex);
+                  charIndex++;
+                  setTimeout(typeNextChar, typingSpeed);
+              }
+          }
+          
+          typeNextChar();</script>
         <!-- Card iago-->
         <div class="conteudo-card" id="iago">
           <img class="card-img" src="./img/iago.jpeg" alt="Iago de Jesus" />

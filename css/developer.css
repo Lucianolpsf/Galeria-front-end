@@ -17,7 +17,14 @@
   color: white;
   background-color: rgba(25, 25, 71, 0.712);
 }
+#renatarcs{
+  color: rgb(233, 10, 158);
+  background-color:pink;
 
+}
+#renatarcs:hover{
+  background-color: black;
+}
 /*card iago*/
 #iago {
   background-color: #0d3c39;
