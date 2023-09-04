@@ -17,14 +17,7 @@
   color: white;
   background-color: rgba(25, 25, 71, 0.712);
 }
-#renatarcs{
-  color: rgb(233, 10, 158);
-  background-color:pink;
 
-}
-#renatarcs:hover{
-  background-color: black;
-}
 /*card iago*/
 #iago {
   background-color: #0d3c39;
@@ -654,4 +647,12 @@
 
 #Card-Márcio-Cardoso:hover {
   background-color: #0f4803d7;
+}
+/*Card Renata*/
+#renatarcs{
+  color: rgb(233, 10, 158);
+  background-color:pink;
+}
+#renatarcs:hover{
+  background-color: black;
 }
