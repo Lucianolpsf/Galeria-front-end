@@ -649,7 +649,29 @@
   background-color: #0f4803d7;
 }
 
-
+/* Clayton Kennedy */
+#clayton {
+  background-color: #c4c4c4;
+  color: #000;
+}
+#clayton img {
+  border: 1px solid #bdbdbd;
+}
+#clayton:hover {
+  background-color: #fafafa;
+  color: #000;
+  box-shadow: 0px 0px 10px rgb(139, 139, 139);
+}
+#clayton a {
+  background-color: rgb(61, 61, 61);
+}
+#clayton a:hover {
+  background-color: #fafafa;
+  color: #000;
+  font-size: 1.2em;
+  font-weight: bold;
+  box-shadow: 0px 0px 21px #000;
+}
 /* Card João Vítor */
 
 #JoãoVítor {
@@ -840,5 +862,4 @@
   background-color: #060606;
   color: white;
   border: solid 1px #F9004D;
-  
 }
