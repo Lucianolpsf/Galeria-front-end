@@ -648,3 +648,29 @@
 #Card-Márcio-Cardoso:hover {
   background-color: #0f4803d7;
 }
+
+
+/* Card Gustavo Valverde */
+
+#gustavo{
+  background-color: purple;
+  box-shadow: blueviolet 8px 6px 6px;
+}
+#gustavo:hover{
+  background-color: black;
+}
+#gustavo img{
+  border-radius: 100%;
+  height: 155px;
+  width: 155px;
+}
+#gustavo a{
+  background-color: white;
+  color: black;
+
+}
+#gustavo a:hover{
+  background-color: white;
+  color: purple;
+  border: solid 1px purple;
+}
