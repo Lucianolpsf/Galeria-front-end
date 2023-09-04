@@ -656,3 +656,15 @@
 #renatarcs:hover{
   background-color: black;
 }
+#cursor {
+  margin-left: 2px;
+  width: .2px;
+  background-color: #ccc;
+  animation: piscar 1s infinite;
+}
+#cursor.escrevendo {
+  animation: none;
+}
+#texto-digitado {
+  color: var(--primaria);
+}

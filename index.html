@@ -364,8 +364,8 @@
          <!-- Card Renata Carvalho-->
          <div class="conteudo-card" id="renatarcs">
           <img class="card-img" src="./img/re.jpg" alt="Renata Carvalho" />
-          <h2 class="card-titulo"><span id="typed-name"></span></h2>
-          <p class="card-descricao">
+          <h2 class="card-titulo"><span>Renata carvalho</span></h2>
+          <p class="card-descricao"  id="typed-name">
           Estudante de ADS e apaixonada por programação.
           </p>
           <a
@@ -375,20 +375,6 @@
             >Portfolio</a
           >
         </div>
-        <script>var nameElement = document.getElementById("typed-name");
-          var name = "Renata carvalho";
-          var charIndex = 0;
-          var typingSpeed = 100; // Velocidade de digitação (em milissegundos)
-          
-          function typeNextChar() {
-              if (charIndex < name.length) {
-                  nameElement.innerHTML += name.charAt(charIndex);
-                  charIndex++;
-                  setTimeout(typeNextChar, typingSpeed);
-              }
-          }
-          
-          typeNextChar();</script>
       </main>
       <!-- <aside class="aside right">
       
@@ -402,5 +388,6 @@
         tecnologias envolvidas.
       </small></p>
     </footer>
+    <script src="./javascript/renata.js"></script>
   </body>
 </html>
