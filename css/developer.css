@@ -649,6 +649,60 @@
   background-color: #0f4803d7;
 }
 
+/*Card bruno*/
+#card-bruno-kendy {
+  background-color: #c5510e;
+  box-shadow: 10px 15px 20px rgb(255 255 255);
+}
+#card-bruno-kendy:hover {
+  background-color: #c5510e;
+  transform: scale(1.1);
+}
+#card-bruno-kendy a {
+  background-color: #000000;
+  transition: color .5s;
+  animation: attentionCall infinite 5s;
+  border-radius: 10px;
+}
+#card-bruno-kendy a:hover {
+  color: #c5510e;
+  animation: none;
+}
+@keyframes attentionCall {
+  48% {
+    transform: scale(1);
+  }
+  49% {
+    transform: scale(1.1);
+  }
+  50% {
+    rotate: 0deg;
+  }
+  55% {
+    rotate: 10deg;
+  }
+  60% {
+    rotate: -10deg;
+  }
+  65% {
+    rotate: 10deg;
+  }
+  70% {
+    rotate: -10deg;
+    transform: scale(1.1)
+  }
+  71% {
+    rotate: 0deg;
+    transform: scale(1.05);
+  }
+  72% {
+    transform: scale(1.0);
+  }
+  100% {
+    rotate: 0deg;
+  }
+}
+
 /*Card Renata*/
 #renatarcs{
   color: rgb(233, 10, 158);
@@ -668,7 +722,7 @@
 }
 #texto-digitado {
   color: var(--primaria);
-
+}
 /* Card Eric */
 
 #Eric{
