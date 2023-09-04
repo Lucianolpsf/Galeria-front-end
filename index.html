@@ -1,377 +1,249 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/layout-pagina.css" />
-    <link rel="stylesheet" href="css/layout-card.css" />
-    <link rel="stylesheet" href="css/developer.css" />
-    <link
-      rel="shortcut icon"
-      href="./img/favicon-32x32.png"
-      type="image/x-icon"
-    />
-    <title>Galeria Front-end</title>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5853657215781602"
-     crossorigin="anonymous"></script>
-  </head>
 
-  <body>
-    <header class="cabecalho-footer">
-      <h1>Alunos do curso de front-end</h1>
-      <img src="./img/senai-df.png" alt="Logo do Senai" class="header-senai" />
-    </header>
-    
-    <section class="container">
-      <!-- <aside class="aside left">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/layout-pagina.css" />
+  <link rel="stylesheet" href="css/layout-card.css" />
+  <link rel="stylesheet" href="css/developer.css" />
+  <link rel="shortcut icon" href="./img/favicon-32x32.png" type="image/x-icon" />
+  <title>Galeria Front-end</title>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5853657215781602"
+    crossorigin="anonymous"></script>
+  <style>
+    /* font Handjet */
+      @import url('https://fonts.googleapis.com/css2?family=Handjet:wght@100;200;300;400;500;600;700;800;900&display=swap');
+  </style> 
+</head>
+
+<body>
+  <header class="cabecalho-footer">
+    <h1>Alunos do curso de front-end</h1>
+    <img src="./img/senai-df.png" alt="Logo do Senai" class="header-senai" />
+  </header>
+
+  <section class="container">
+    <!-- <aside class="aside left">
       </aside> -->
-      <main class="conteudo">
-        <!-- Card Luciano Lopes -->
-        <div class="conteudo-card">
-          <img class="card-img" src="./img/Luciano.png" alt="Luciano Lopes" />
-          <h2 class="card-titulo">Luciano Lopes</h2>
-          <p class="card-descricao">
-            Desenvolvedor front-end e entusiasta de tecnologica
-          </p>
-          <a
-            href="https://lucianolpsf.github.io/portfolio/"
-            class="card-link"
-            target="_blank"
-            >Portfolio</a
-          >
-        </div>
-        <!-- Card igor-->
-        <div class="conteudo-card" id="igor">
-          <img class="card-img" src="./img/Igor.jpeg" alt="Luciano Lopes" />
-          <h2 class="card-titulo">Igor Gonçalves</h2>
-          <p class="card-descricao">
-            Um aprendiz de desenvolvimento front-end e sonhador.
-          </p>
-          <a
-            href="https://eoigru.github.io/portf-lio/"
-            class="card-link"
-            target="_blank"
-            >Portfolio</a
-          >
-        </div>
-        <!-- Card iago-->
-        <div class="conteudo-card" id="iago">
-          <img class="card-img" src="./img/iago.jpeg" alt="Iago de Jesus" />
-          <h2 class="card-titulo">Iago de jesus</h2>
-          <p class="card-descricao">
-            Iniciante na àrea de front-end com vontade de aprender.
-          </p>
-          <a href="" class="card-link" target="_blank">Portfolio</a>
-        </div>
-        <!-- Card Lucio araujo-->
-        <div class="conteudo-card" id="lf">
-          <img
-            class="card-img-lf"
-            src="https://avatars.githubusercontent.com/u/102086432?v=4"
-            alt="Lucio Araujo"
-          />
-          <h2 class="card-titulo-lf">Lucio Araujo</h2>
-          <p class="card-descricao-lf">Python Developer</p>
-          <a
-            class="card-link-lf"
-            target="_blank"
-            href="https://github.com/luciofer"
-            >Portfolio</a
-          >
-        </div>
-        <!-- Card Lucas lima-->
-        <div class="conteudo-card" id="lucaslima">
-          <img class="card-img" src="./img/LucasLima.jpg" alt="Lucas Lima" />
-          <h2 class="card-titulo">Lucas Lima</h2>
-          <p class="card-descricao">
-            Aprendiz de front-end e amante da tecnologia
-          </p>
-          <a
-            href="https://lrlucaas1.github.io/portfolio/"
-            class="card-link"
-            target="_blank"
-            >Portfolio</a
-          >
-        </div>
-        <!-- Card Wesley Moreira-->
-        <div class="conteudo-card" id="wesley">
-          <img class="card-img" src="./img/wesley.jpg" alt="Wesley Moreira" />
-          <h2 class="card-titulo">Wesley Moreira</h2>
-          <p class="card-descricao">Futuro Desenvolvedor Front-end</p>
-          <a
-            href="https://wesmoreira.github.io/portifolio/"
-            class="card-link"
-            target="_blank"
-            >Portfolio</a
-          >
-        </div>
-        <!-- Card do Thiago -->
-        <div class="conteudo-card" id="thiago">
-          <img class="card-img" src="./img/thiago.jpg" alt="Thiago Dantas" />
-          <h2 class="card-titulo">Thiago Dantas</h2>
-          <p class="card-descricao">Aspirante a Desenvolvedor Front-end</p>
-          <a
-            href="https://thiagododti.github.io/portfolio/"
-            class="card-link"
-            target="_blank"
-            >Portfolio</a
-          >
-        </div>
-        <!-- Card Weslei Souza -->
-        <div class="conteudo-card" id="wesleisouza">
-          <img
-            class="card-img-wesleisouza"
-            src="./img/weslei.souza.jpg"
-            alt="Weslei Souza"
-          />
-          <h2 class="card-titulo">Weslei Souza</h2>
-          <p class="card-descricao-wesleisouza">
-            Migrando da Infra para Desenvolvedor Front-end
-          </p>
-          <a
-            href="https://weslei.souza.github.io/portifolio/"
-            class="card-link"
-            target="_blank"
-            >Portfolio</a
-          >
-        </div>
-        <!-- Card Alan Cleverson -->
-        <div class="conteudo-card" id="alan-cleverson">
-          <img class="card-img" src="./img/Al  (2).jpg" alt="Alan.Cleverson" />
-          <h2 class="dois">Alan Cleverson</h2>
-          <br />
-          <p class="tres">Desenvolvedor Front-end e evoluindo...</p>
-          <a href="https://github.com/Devofficebr" class="card-link" target="_blank"
-            >Portfolio</a
-          >
-        </div>
-        <!-- Card Diogo Vilela -->
-        <div class="conteudo-card" id="diogo__vilela">
-          <img
-            class="card-img"
-            src="https://avatars.githubusercontent.com/u/90631238?v=4"
-            alt="Diogo Vilela"
-          />
-          <h2 class="card-titulo">Diogo Vilela</h2>
-          <p class="card-descricao">Desenvolvedor Full-Stack em formação.</p>
-          <a
-            href="https://diogovilela12.github.io/Challenge-ONE-Portifolio/"
-            class="card-link"
-            id="diogo__vilela-button"
-            target="_blank"
-            >Portfolio</a
-          >
-        </div>
-        <!-- Ronistênia Azevedo-->
-        <div class="conteudo-card" id="Ronistenia_azevedo">
-          <img class="card-img" src="img/rony.jpg" alt="Ronistenia_Azevedo" />
-          <h2 class="card-titulo">Ronistênia Azevedo</h2>
-          <p class="card-descricao">Estudante de programação.</p>
-          <a
-            href="https://github.com/Ronistenia/repositoriodadonarony.git"
-            class="card-link"
-            id="Ronistenia_Azevedo"
-            target="_blank"
-            >Portfolio</a
-          >
-        </div>
-        <!--Card Hugo Gonçalves-->
-        <div class="conteudo-card" id="hugo-goncalves">
-          <img
-            class="card-img"
-            src="https://avatars.githubusercontent.com/u/113647222?v=4"
-            alt="Hugo Gonçalves"
-          />
-          <h3 class="b">HUGO GONÇALVES</h3>
-          <br />
-          <p class="c">Front-end devoloper</p>
-          <a
-            href="https://github.com/hugoquim/Meu-Portfolio"
-            class="d"
-            target="_blank"
-            >Portfolio</a
-          >
-        </div>
-        <!--Card Cicero Junio-->
-        <div class="conteudo-card" id="cardcicero">
-          <img
-            class="card-img-cicero"
-            src="https://avatars.githubusercontent.com/u/118027344?s=400&u=d84c1153c2e3ec60c7b74aca769661b132183203&v=4"
-            alt="Cicero Junio"
-          />
-          <h3 class="titulocicero">Cicero Junio</h3>
-          <br />
-          <p class="textocicero">Buscando evolução sempre</p>
-          <a
-            href="https://github.com/cicero-junio"
-            class="card-link"
-            target="_blank"
-            >Portfolio</a
-          >
-        </div>
-        <!--Card David Catheirnck-->
-        <div class="david-teste">
-          <div class="david-teste1">
-            <div class="david">
-              <img
-                class="david-img"
-                src="https://avatars.githubusercontent.com/u/83021653?v=4"
-                alt="David Catherinck"
-              />
-              <div class="david-descricao">
-                <h3 class="david-descricao__nome">DAVID CATHERINCK</h3>
-                <br />
-                <p class="david-descricao__desenvolvedor">Front-end devoloper</p>
-              </div>
-              <a
-                href="https://github.com/d-catherinck"
-                class="david-portifolio"
-                target="_blank"
-                >Portfolio</a
-              >
+    <main class="conteudo">
+      <!-- Card Luciano Lopes -->
+      <div class="conteudo-card">
+        <img class="card-img" src="./img/Luciano.png" alt="Luciano Lopes" />
+        <h2 class="card-titulo">Luciano Lopes</h2>
+        <p class="card-descricao">
+          Desenvolvedor front-end e entusiasta de tecnologica
+        </p>
+        <a href="https://lucianolpsf.github.io/portfolio/" class="card-link" target="_blank">Portfolio</a>
+      </div>
+      <!-- Card igor-->
+      <div class="conteudo-card" id="igor">
+        <img class="card-img" src="./img/Igor.jpeg" alt="Luciano Lopes" />
+        <h2 class="card-titulo">Igor Gonçalves</h2>
+        <p class="card-descricao">
+          Um aprendiz de desenvolvimento front-end e sonhador.
+        </p>
+        <a href="https://eoigru.github.io/portf-lio/" class="card-link" target="_blank">Portfolio</a>
+      </div>
+      <!-- Card iago-->
+      <div class="conteudo-card" id="iago">
+        <img class="card-img" src="./img/iago.jpeg" alt="Iago de Jesus" />
+        <h2 class="card-titulo">Iago de jesus</h2>
+        <p class="card-descricao">
+          Iniciante na àrea de front-end com vontade de aprender.
+        </p>
+        <a href="" class="card-link" target="_blank">Portfolio</a>
+      </div>
+      <!-- Card Lucio araujo-->
+      <div class="conteudo-card" id="lf">
+        <img class="card-img-lf" src="https://avatars.githubusercontent.com/u/102086432?v=4" alt="Lucio Araujo" />
+        <h2 class="card-titulo-lf">Lucio Araujo</h2>
+        <p class="card-descricao-lf">Python Developer</p>
+        <a class="card-link-lf" target="_blank" href="https://github.com/luciofer">Portfolio</a>
+      </div>
+      <!-- Card Lucas lima-->
+      <div class="conteudo-card" id="lucaslima">
+        <img class="card-img" src="./img/LucasLima.jpg" alt="Lucas Lima" />
+        <h2 class="card-titulo">Lucas Lima</h2>
+        <p class="card-descricao">
+          Aprendiz de front-end e amante da tecnologia
+        </p>
+        <a href="https://lrlucaas1.github.io/portfolio/" class="card-link" target="_blank">Portfolio</a>
+      </div>
+      <!-- Card Wesley Moreira-->
+      <div class="conteudo-card" id="wesley">
+        <img class="card-img" src="./img/wesley.jpg" alt="Wesley Moreira" />
+        <h2 class="card-titulo">Wesley Moreira</h2>
+        <p class="card-descricao">Futuro Desenvolvedor Front-end</p>
+        <a href="https://wesmoreira.github.io/portifolio/" class="card-link" target="_blank">Portfolio</a>
+      </div>
+      <!-- Card do Thiago -->
+      <div class="conteudo-card" id="thiago">
+        <img class="card-img" src="./img/thiago.jpg" alt="Thiago Dantas" />
+        <h2 class="card-titulo">Thiago Dantas</h2>
+        <p class="card-descricao">Aspirante a Desenvolvedor Front-end</p>
+        <a href="https://thiagododti.github.io/portfolio/" class="card-link" target="_blank">Portfolio</a>
+      </div>
+      <!-- Card Weslei Souza -->
+      <div class="conteudo-card" id="wesleisouza">
+        <img class="card-img-wesleisouza" src="./img/weslei.souza.jpg" alt="Weslei Souza" />
+        <h2 class="card-titulo">Weslei Souza</h2>
+        <p class="card-descricao-wesleisouza">
+          Migrando da Infra para Desenvolvedor Front-end
+        </p>
+        <a href="https://weslei.souza.github.io/portifolio/" class="card-link" target="_blank">Portfolio</a>
+      </div>
+      <!-- Card Alan Cleverson -->
+      <div class="conteudo-card" id="alan-cleverson">
+        <img class="card-img" src="./img/Al  (2).jpg" alt="Alan.Cleverson" />
+        <h2 class="dois">Alan Cleverson</h2>
+        <br />
+        <p class="tres">Desenvolvedor Front-end e evoluindo...</p>
+        <a href="https://github.com/Devofficebr" class="card-link" target="_blank">Portfolio</a>
+      </div>
+      <!-- Card Diogo Vilela -->
+      <div class="conteudo-card" id="diogo__vilela">
+        <img class="card-img" src="https://avatars.githubusercontent.com/u/90631238?v=4" alt="Diogo Vilela" />
+        <h2 class="card-titulo">Diogo Vilela</h2>
+        <p class="card-descricao">Desenvolvedor Full-Stack em formação.</p>
+        <a href="https://diogovilela12.github.io/Challenge-ONE-Portifolio/" class="card-link" id="diogo__vilela-button"
+          target="_blank">Portfolio</a>
+      </div>
+      <!-- Ronistênia Azevedo-->
+      <div class="conteudo-card" id="Ronistenia_azevedo">
+        <img class="card-img" src="img/rony.jpg" alt="Ronistenia_Azevedo" />
+        <h2 class="card-titulo">Ronistênia Azevedo</h2>
+        <p class="card-descricao">Estudante de programação.</p>
+        <a href="https://github.com/Ronistenia/repositoriodadonarony.git" class="card-link" id="Ronistenia_Azevedo"
+          target="_blank">Portfolio</a>
+      </div>
+      <!--Card Hugo Gonçalves-->
+      <div class="conteudo-card" id="hugo-goncalves">
+        <img class="card-img" src="https://avatars.githubusercontent.com/u/113647222?v=4" alt="Hugo Gonçalves" />
+        <h3 class="b">HUGO GONÇALVES</h3>
+        <br />
+        <p class="c">Front-end devoloper</p>
+        <a href="https://github.com/hugoquim/Meu-Portfolio" class="d" target="_blank">Portfolio</a>
+      </div>
+      <!--Card Cicero Junio-->
+      <div class="conteudo-card" id="cardcicero">
+        <img class="card-img-cicero"
+          src="https://avatars.githubusercontent.com/u/118027344?s=400&u=d84c1153c2e3ec60c7b74aca769661b132183203&v=4"
+          alt="Cicero Junio" />
+        <h3 class="titulocicero">Cicero Junio</h3>
+        <br />
+        <p class="textocicero">Buscando evolução sempre</p>
+        <a href="https://github.com/cicero-junio" class="card-link" target="_blank">Portfolio</a>
+      </div>
+      <!--Card David Catheirnck-->
+      <div class="david-teste">
+        <div class="david-teste1">
+          <div class="david">
+            <img class="david-img" src="https://avatars.githubusercontent.com/u/83021653?v=4" alt="David Catherinck" />
+            <div class="david-descricao">
+              <h3 class="david-descricao__nome">DAVID CATHERINCK</h3>
+              <br />
+              <p class="david-descricao__desenvolvedor">Front-end devoloper</p>
             </div>
+            <a href="https://github.com/d-catherinck" class="david-portifolio" target="_blank">Portfolio</a>
           </div>
         </div>
-        <!-- Gleydson Saraiva -->
-        <div class="conteudo-card" id="gleydson-saraiva">
-          <img
-            class="card-img"
-            src="./img/Gleydson-Saraiva.jpg"
-            alt="GleydsonSaraiva"
-          />
-          <h2 class="card-titulo-gleydson">Gleydson Saraiva</h2>
-          <p class="card-descricao-gleydson">
-            Desenvolvedor Front-end e Back-End
+      </div>
+      <!-- Gleydson Saraiva -->
+      <div class="conteudo-card" id="gleydson-saraiva">
+        <img class="card-img" src="./img/Gleydson-Saraiva.jpg" alt="GleydsonSaraiva" />
+        <h2 class="card-titulo-gleydson">Gleydson Saraiva</h2>
+        <p class="card-descricao-gleydson">
+          Desenvolvedor Front-end e Back-End
+        </p>
+        <a href="https://github.com/Gleydson-Saraiva" class="card-link" target="_blank">Portfolio</a>
+      </div>
+      <!-- Card Gustavo-->
+      <div class="conteudo-card" id="cardgustavodiv">
+        <img class="imggustavo" src="img/gustavopeixoto.jpg" alt="Gustavo Peixoto" />
+        <h2 class="card-titulo">Gustavo Peixoto</h2>
+        <p class="card-descricao">Desenvolvedor Front-end cursando</p>
+        <a href="https://github.com/gustavogpcti" class="cardlinkgpc" target="_blank">Portfolio</a>
+      </div>
+      <!-- Felipe Guimarães -->
+      <div class="conteudo-card" id="felipeguimaraes">
+        <img class="card-img-felipeguimaraes" src="./img/Grilow.jpg" alt="Felipe Guimarães" />
+        <h2 class="card-titulo-felipeguimaraes">Felipe Guimarães</h2>
+        <p class="card-descricao">Estudante de DEV Front-end e JAVA</p>
+        <a href="https://github.com/Grilow89" class="card-link" target="_blank">Portfolio</a>
+      </div>
+      <!-- Card Luan -->
+      <div class="conteudo-card" id="luansouza">
+        <img class="card-img" src="./img/linkedin.png" alt="luan souza" />
+        <h2 class="card-titulo">Luan Souza</h2>
+        <p class="card-descricao">Desenvolvedor Front-end</p>
+        <a href="https://luanproject.github.io/projeto-pessoal/" class="card-link" target="_blank">Portfólio</a>
+      </div>
+      <!-- junio guilherme -->
+      <div class="conteudo-card" id="junioguilherme">
+        <img class="card-img" src="./img/J.png" alt="junio guilherme" />
+        <h2 class="card-titulo">junio guilherme</h2>
+        <p class="card-descricao">Desenvolvedor Front-end</p>
+        <a href="https://junio170814.github.io/projeto-pessoal/" class="card-link" target="_blank">Portfólio</a>
+      </div>
+      <!-- Card Daniel da Silva -->
+      <div class="conteudo-card" id="danielsn">
+        <div class="flipp-front">
+          <h2 class="card-titulo">Daniel<spam class="sn">SN</spam>
+          </h2>
+          <img class="card-img" src="./img/danielsn.jpeg" alt="DanielSN" />
+          <p class="card-descricao">
+            Técnico em Eletrônica, Eletricista e Programador Front-End em
+            formação.
           </p>
-          <a
-            href="https://github.com/Gleydson-Saraiva"
-            class="card-link"
-            target="_blank"
-            >Portfolio</a
-          >
         </div>
-        <!-- Card Gustavo-->
-        <div class="conteudo-card" id="cardgustavodiv">
-          <img
-            class="imggustavo"
-            src="img/gustavopeixoto.jpg"
-            alt="Gustavo Peixoto"
-          />
-          <h2 class="card-titulo">Gustavo Peixoto</h2>
-          <p class="card-descricao">Desenvolvedor Front-end cursando</p>
-          <a
-            href="https://github.com/gustavogpcti"
-            class="cardlinkgpc"
-            target="_blank"
-            >Portfolio</a
-          >
+        <div class="flipp-back">
+          <p class="card-descricao">Conheça meus Trabalhos.</p>
+          <a href="https://github.com/DanielSN1987" class="card-link" target="_blank">Meu Portfolio</a>
         </div>
-        <!-- Felipe Guimarães -->
-        <div class="conteudo-card" id="felipeguimaraes">
-          <img
-            class="card-img-felipeguimaraes"
-            src="./img/Grilow.jpg"
-            alt="Felipe Guimarães"
-          />
-          <h2 class="card-titulo-felipeguimaraes">Felipe Guimarães</h2>
-          <p class="card-descricao">Estudante de DEV Front-end e JAVA</p>
-          <a href="https://github.com/Grilow89" class="card-link" target="_blank"
-            >Portfolio</a
-          >
-        </div>
-        <!-- Card Luan -->
-        <div class="conteudo-card" id="luansouza">
-          <img class="card-img" src="./img/linkedin.png" alt="luan souza" />
-          <h2 class="card-titulo">Luan Souza</h2>
-          <p class="card-descricao">Desenvolvedor Front-end</p>
-          <a
-            href="https://luanproject.github.io/projeto-pessoal/"
-            class="card-link"
-            target="_blank"
-            >Portfólio</a
-          >
-        </div>
-        <!-- junio guilherme -->
-        <div class="conteudo-card" id="junioguilherme">
-          <img class="card-img" src="./img/J.png" alt="junio guilherme" />
-          <h2 class="card-titulo">junio guilherme</h2>
-          <p class="card-descricao">Desenvolvedor Front-end</p>
-          <a
-            href="https://junio170814.github.io/projeto-pessoal/"
-            class="card-link"
-            target="_blank"
-            >Portfólio</a
-          >
-        </div>
-        <!-- Card Daniel da Silva -->
-        <div class="conteudo-card" id="danielsn">
-          <div class="flipp-front">
-            <h2 class="card-titulo">Daniel<spam class="sn">SN</spam></h2>
-            <img class="card-img" src="./img/danielsn.jpeg" alt="DanielSN" />
-            <p class="card-descricao">
-              Técnico em Eletrônica, Eletricista e Programador Front-End em
-              formação.
-            </p>
-          </div>
-          <div class="flipp-back">
-            <p class="card-descricao">Conheça meus Trabalhos.</p>
-            <a
-              href="https://github.com/DanielSN1987"
-              class="card-link"
-              target="_blank"
-              >Meu Portfolio</a
-            >
-          </div>
-        </div>
-        <!-- Felipe Martins -->
-        <div class="conteudo-card" id="FelipeM">
-          <img class="card-img" src="./img/FelipeMP.jpeg" alt="Felipe Martins" />
-          <h2 class="card-titulo">Felipe Martins</h2>
-          <p class="card-descricao">Desenvolvedor Front-end</p>
-          <a
-            href="https://github.com/FelipeMPagnez"
-            class="card-link"
-            target="_blank"
-            >Portfólio</a
-          >
-        </div>
-        <!-- Card Márcio Cardoso -->
-        <div class="conteudo-card" id="Card-Márcio-Cardoso">
-          <img class="card-img" src="./img/marciomacs.jpg" alt="Márcio Cardoso" />
-          <h2 class="card-titulo">Márcio Cardoso</h2>
-          <p class="card-descricao">Futuro Desenvolvedor front-end</p>
-          <a
-            href="https://github.com/marciomacs"
-            class="card-link"
-            target="_blank"
-            >Portfolio</a
-          >
-        </div>
-        <!--Card Regis-->
-        <div class="conteudo-card">
-          <img class="card-img" src="./img/img-regis.jpg" alt="Regis Ribeiro" />
-          <h2 class="card-titulo">Regis Ribeiro</h2>
-          <p class="card-descricao">Analista e Desenvolvedor de Sistemas</p>
-          <a
-            href="https://rockmaior.github.io/portfolio/"
-            class="card-link"
-            target="_blank"
-            >Portfolio</a
-          >
-        </div>
-      </main>
-      <!-- <aside class="aside right">
+      </div>
+      <!-- Felipe Martins -->
+      <div class="conteudo-card" id="FelipeM">
+        <img class="card-img" src="./img/FelipeMP.jpeg" alt="Felipe Martins" />
+        <h2 class="card-titulo">Felipe Martins</h2>
+        <p class="card-descricao">Desenvolvedor Front-end</p>
+        <a href="https://github.com/FelipeMPagnez" class="card-link" target="_blank">Portfólio</a>
+      </div>
+      <!-- Card Márcio Cardoso -->
+      <div class="conteudo-card" id="Card-Márcio-Cardoso">
+        <img class="card-img" src="./img/marciomacs.jpg" alt="Márcio Cardoso" />
+        <h2 class="card-titulo">Márcio Cardoso</h2>
+        <p class="card-descricao">Futuro Desenvolvedor front-end</p>
+        <a href="https://github.com/marciomacs" class="card-link" target="_blank">Portfolio</a>
+      </div>
+      <!--Card Regis-->
+      <div class="conteudo-card">
+        <img class="card-img" src="./img/img-regis.jpg" alt="Regis Ribeiro" />
+        <h2 class="card-titulo">Regis Ribeiro</h2>
+        <p class="card-descricao">Analista e Desenvolvedor de Sistemas</p>
+        <a href="https://rockmaior.github.io/portfolio/" class="card-link" target="_blank">Portfolio</a>
+      </div>
+      <!--Card Ítalo Gadelha-->
+      <div class="conteudo-card" id="idimga">
+        <img class="card-img" src="https://github.com/krons1996.png" alt="Ítalo Gadelha" id="iimga"/>
+        <h2 class="card-titulo" id="idpimga">Ítalo Gadelha</h2>
+        <p class="card-descricao" id="idpimga">Dev Front-End | DBA </p>
+        <a href="https://krons1996.github.io/Portifolio/" class="card-link" target="_blank" id="idbimga">Portfolio</a>
+      </div>
+    </main>
+    <!-- <aside class="aside right">
       
       </aside> -->
-    </section>
+  </section>
 
-    <footer class="cabecalho-footer">
-      <p><small>
+  <footer class="cabecalho-footer">
+    <p><small>
         Cada card foi desenvolvido pelo proprio autor com base nos conhecimentos
         absorvidos, para assimilação de conteudo e treino das diversas
         tecnologias envolvidas.
       </small></p>
-    </footer>
-  </body>
+  </footer>
+</body>
+
 </html>
